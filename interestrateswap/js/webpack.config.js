@@ -13,9 +13,10 @@ module.exports = {
         path: path.resolve(__dirname, './dist'),
         filename: '[name].bundle.js',
     },
+    watch: true,
     plugins: [
         new HtmlWebpackPlugin({
-            title: 'RhoovaExample',
+            title: 'Rhoova Example',
             template: path.resolve(__dirname, './src/template.html'),
         }),
         new CleanWebpackPlugin(),
@@ -25,7 +26,18 @@ module.exports = {
         rules: [{
             test: /\.css$/i,
             use: ["style-loader", "css-loader"],
-        }]
+        },
+        //     {
+        //     test: /\.js$/,
+        //     exclude: /(node_modules)/,
+        //     use: {
+        //         loader: 'babel-loader',
+        //         options: {
+        //             presets: ['babel-preset-env']
+        //         }
+        //     }
+        // }
+        ]
     },
     mode: 'development',
     devServer: {
@@ -36,4 +48,4 @@ module.exports = {
         hot: true,
         port: 8080,
     }
-}
+};
