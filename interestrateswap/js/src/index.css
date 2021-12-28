@@ -47,3 +47,12 @@ label {
     transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
 
 }
+
+.my-custom-scrollbar {
+    position: relative;
+    height: 200px;
+    overflow: auto;
+}
+.table-wrapper-scroll-y {
+    display: block;
+}

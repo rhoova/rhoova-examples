@@ -7,16 +7,19 @@
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="index.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.10.1/bootstrap-table.min.css">
+<!--    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>-->
+<!--    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>-->
+<!--    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.10.1/bootstrap-table.min.js"></script>-->
+
 </head>
 <body>
 <h3>Fixed Rate Bond</h3>
 <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
-
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 <script src="index.js"></script>
-
-<!-- Navigation -->
 
 <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -40,29 +43,18 @@
             <h3 class="page-header" style="margin:0px">Interest Rate Swap</h3>
         </div>
     </div>
-    <div class="col-md-3">
-        <h4>Fixed Leg</h4>
-        <hr>
-    </div>
-    <div class="col-md-3">
-        <h4>Floating Leg</h4>
-        <hr>
-    </div>
-    <div class="col-md-3">
-        <h4>Valuation Settings</h4>
-        <hr>
-    </div>
-    <div class="col-md-3">
-        <h4>Yield Curve</h4>
-        <hr>
-    </div>
+
     <div>
         <button class="btn btn-primary" id="submit_fixedratebond">Compute</button>
 
     </div>
 
     <form id="form_irs">
-        <div class="col-md-3">
+        <div class="col-md-4">
+            <div class="row">
+                <h4>Fixed Leg</h4>
+                <hr>
+            </div>
             <div class="form-group row">
                 <label for="payorreceive" class="col-sm-2 col-form-label">PayorReceive</label>
                 <div class="col-sm-10">
@@ -204,7 +196,11 @@
             </div>
         </div>
 
-        <div class="col-md-3">
+        <div class="col-md-4">
+            <div class="row">
+                <h4>Floating Leg</h4>
+                <hr>
+            </div>
             <div class="form-group row">
                 <label for="index" class="col-sm-2 col-form-label">Index</label>
                 <div class="col-sm-10">
@@ -343,7 +339,167 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-4">
+            <div class="row">
+                <h4>Discount Curve</h4>
+                <hr>
+            </div>
+            <div class="form-group row">
+                <label for="notional" class="col-sm-2 col-form-label">Notional</label>
+                <div class="col-sm-10">
+                    <input type="number" class="form-control  form-control-sm" id="notional" placeholder="notional"
+                           value=10000000>
+                </div>
+                <label for="currency" class="col-sm-2 col-form-label">Currency</label>
+                <div class="col-sm-10">
+                    <select class="form-control">
+                        <option selected>USD</option>
+                        <option value="1">TRY</option>
+                        <option value="2">EUR</option>
+                        <option value="3">GBP</option>
+                        <option value="4">JPY</option>
+                    </select>
+                </div>
+                <label for="valuationDate" class="col-sm-2 col-form-label">ValueDate</label>
+                <div class="col-sm-10">
+                    <input type="date" class="form-control" id="valuationDate" name="valuationDate" value="2016-12-22">
+                </div>
+                <label for="settlementDate" class="col-sm-2 col-form-label">Sett.Date</label>
+                <div class="col-sm-10">
+                    <input type="date" class="form-control" id="settlementDate" name="settlementDate"
+                           value="2016-12-22">
+                </div>
+                <label for="startDate" class="col-sm-2 col-form-label">StartDate</label>
+                <div class="col-sm-10">
+                    <input type="date" class="form-control" id="startDate" name="startDate" value="2016-12-22">
+                </div>
+                <label for="maturityDate" class="col-sm-2 col-form-label">Mat.Date</label>
+                <div class="col-sm-10">
+                    <input type="date" class="form-control" id="maturityDate" name="maturityDate" value="2016-12-22">
+                </div>
+                <label for="discountcurve" class="col-sm-2 col-form-label">DiscCurve</label>
+                <div class="col-sm-10">
+                    <select class="form-control">
+                        <option selected>USD3M1</option>
+                    </select>
+                </div>
+                <label for="forecastcurve" class="col-sm-2 col-form-label">ForeCurve</label>
+                <div class="col-sm-10">
+                    <select class="form-control">
+                        <option selected>USD3M1</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="row">
+                <h4>Floating L. Forecast Curve</h4>
+                <hr>
+            </div>
+            <div class="form-group row">
+                <label for="notional" class="col-sm-2 col-form-label">Notional</label>
+                <div class="col-sm-10">
+                    <input type="number" class="form-control  form-control-sm" id="notional" placeholder="notional"
+                           value=10000000>
+                </div>
+                <label for="currency" class="col-sm-2 col-form-label">Currency</label>
+                <div class="col-sm-10">
+                    <select class="form-control">
+                        <option selected>USD</option>
+                        <option value="1">TRY</option>
+                        <option value="2">EUR</option>
+                        <option value="3">GBP</option>
+                        <option value="4">JPY</option>
+                    </select>
+                </div>
+                <label for="valuationDate" class="col-sm-2 col-form-label">ValueDate</label>
+                <div class="col-sm-10">
+                    <input type="date" class="form-control" id="valuationDate" name="valuationDate" value="2016-12-22">
+                </div>
+                <label for="settlementDate" class="col-sm-2 col-form-label">Sett.Date</label>
+                <div class="col-sm-10">
+                    <input type="date" class="form-control" id="settlementDate" name="settlementDate"
+                           value="2016-12-22">
+                </div>
+                <label for="startDate" class="col-sm-2 col-form-label">StartDate</label>
+                <div class="col-sm-10">
+                    <input type="date" class="form-control" id="startDate" name="startDate" value="2016-12-22">
+                </div>
+                <label for="maturityDate" class="col-sm-2 col-form-label">Mat.Date</label>
+                <div class="col-sm-10">
+                    <input type="date" class="form-control" id="maturityDate" name="maturityDate" value="2016-12-22">
+                </div>
+                <label for="discountcurve" class="col-sm-2 col-form-label">DiscCurve</label>
+                <div class="col-sm-10">
+                    <select class="form-control">
+                        <option selected>USD3M1</option>
+                    </select>
+                </div>
+                <label for="forecastcurve" class="col-sm-2 col-form-label">ForeCurve</label>
+                <div class="col-sm-10">
+                    <select class="form-control">
+                        <option selected>USD3M1</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="row">
+                <h4>Valuation Settings</h4>
+                <hr>
+            </div>
+            <div class="form-group row">
+                <label for="notional" class="col-sm-2 col-form-label">Notional</label>
+                <div class="col-sm-10">
+                    <input type="number" class="form-control  form-control-sm" id="notional" placeholder="notional"
+                           value=10000000>
+                </div>
+                <label for="currency" class="col-sm-2 col-form-label">Currency</label>
+                <div class="col-sm-10">
+                    <select class="form-control">
+                        <option selected>USD</option>
+                        <option value="1">TRY</option>
+                        <option value="2">EUR</option>
+                        <option value="3">GBP</option>
+                        <option value="4">JPY</option>
+                    </select>
+                </div>
+                <label for="valuationDate" class="col-sm-2 col-form-label">ValueDate</label>
+                <div class="col-sm-10">
+                    <input type="date" class="form-control" id="valuationDate" name="valuationDate" value="2016-12-22">
+                </div>
+                <label for="settlementDate" class="col-sm-2 col-form-label">Sett.Date</label>
+                <div class="col-sm-10">
+                    <input type="date" class="form-control" id="settlementDate" name="settlementDate"
+                           value="2016-12-22">
+                </div>
+                <label for="startDate" class="col-sm-2 col-form-label">StartDate</label>
+                <div class="col-sm-10">
+                    <input type="date" class="form-control" id="startDate" name="startDate" value="2016-12-22">
+                </div>
+                <label for="maturityDate" class="col-sm-2 col-form-label">Mat.Date</label>
+                <div class="col-sm-10">
+                    <input type="date" class="form-control" id="maturityDate" name="maturityDate" value="2016-12-22">
+                </div>
+                <label for="discountcurve" class="col-sm-2 col-form-label">DiscCurve</label>
+                <div class="col-sm-10">
+                    <select class="form-control">
+                        <option selected>USD3M1</option>
+                    </select>
+                </div>
+                <label for="forecastcurve" class="col-sm-2 col-form-label">ForeCurve</label>
+                <div class="col-sm-10">
+                    <select class="form-control">
+                        <option selected>USD3M1</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="row">
+                <h4>Yield Data</h4>
+                <hr>
+            </div>
             <div class="form-group row">
                 <label for="notional" class="col-sm-2 col-form-label">Notional</label>
                 <div class="col-sm-10">
@@ -392,12 +548,44 @@
             </div>
         </div>
     </form>
+</div>
+<div class="p-3" id="taskResult" style="display:none; padding-left: 20px;padding-right: 20px; ">
+    <div class="row">
+        <div class="col-lg-12">
+            <h3 class="page-header" style="margin:0px">Calculation Result</h3>
+        </div>
+    </div>
 
-    <div id="taskResult">
+    <div class="table-wrapper-scroll-y my-custom-scrollbar">
+        <table id="taskResultTable"
+               class="table table-bordered table-striped mb-0" style=" overflow: scroll">
+            <thead>
+            <tr>
+                <th data-field="accrualEnd">accrualEnd</th>
+                <th data-field="accrualStart">accrualStart</th>
+                <th data-field="cashflow">cashflow</th>
+                <th data-field="cashflowPv">cashflowPv</th>
+                <th data-field="currency">currency</th>
+                <th data-field="discountFactor">discountFactor</th>
+                <th data-field="fixingDate">fixingDate</th>
+                <th data-field="instrument">instrument</th>
+                <th data-field="leg">leg</th>
+                <th data-field="notional">notional</th>
+                <th data-field="payOrReceive">payOrReceive</th>
+                <th data-field="rate">rate</th>
+                <th data-field="spread">spread</th>
+                <th data-field="termToMatByDay">termToMatByDay</th>
+                <th data-field="termToMatByYear">termToMatByYear</th>
+                <th data-field="zeroRate">zeroRate</th>
+            </tr>
+            </thead>
+            <tbody id="taskBody">
+
+            </tbody>
+        </table>
 
     </div>
 </div>
-
 </body>
 
 </html>
