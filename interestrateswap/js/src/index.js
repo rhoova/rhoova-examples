@@ -7,9 +7,11 @@ function createTaskResult() {
     createTask.addEventListener("submit", (event)=>{
         event.preventDefault();
 
+        let form = $('#formIrs');
 
-        console.log(document.getElementById('payorreceive2').value);
+        let arrayData = $(form).serializeArray();
 
+        console.log(arrayData)
         let client = new rhoova.RhoovaClient({apiKey: "wPJmuD1ABTqGiZVy6r5uz", apiSecret: "Fgnhnz2WfwGbFv3db_1fWStWjLqaX0a-"});
 
         let data = {
