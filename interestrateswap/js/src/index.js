@@ -2,9 +2,14 @@ import "./index.css"
 const rhoova = require("@rhoova/node-client");
 
 function createTaskResult() {
-    let createTask = document.getElementById('submit_fixedratebond');
+    let createTask = document.querySelector('#formIrs');
 
-    createTask.addEventListener("click", ()=>{
+    createTask.addEventListener("submit", (event)=>{
+        event.preventDefault();
+
+
+        console.log(document.getElementById('payorreceive2').value);
+
         let client = new rhoova.RhoovaClient({apiKey: "wPJmuD1ABTqGiZVy6r5uz", apiSecret: "Fgnhnz2WfwGbFv3db_1fWStWjLqaX0a-"});
 
         let data = {
