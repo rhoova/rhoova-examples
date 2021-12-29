@@ -47,7 +47,12 @@ function createTaskResult() {
             } else if (data.name.includes("discountCurve") && data.value!=='') {
                 taskData["discountCurve"] = JSON.parse(data.value)
             } else if (data.name.includes("yieldData") && data.value!=='') {
-                taskData["yieldData"] = JSON.parse(data.value)
+                if(document.activeElement.id==="randomizeAndSubmitIrs"){
+                    console.log(JSON.parse(data.value));
+                    taskData["yieldData"] = randomizeData(JSON.parse(data.value))
+                }else{
+                    taskData["yieldData"] = JSON.parse(data.value)
+                }
             } else {
                 if(data.name==="notional"){
                     taskData[data.name] = parseInt(data.value)
@@ -56,37 +61,49 @@ function createTaskResult() {
                 }
             }
         });
-        // apiKey: "wPJmuD1ABTqGiZVy6r5uz", apiSecret: "Fgnhnz2WfwGbFv3db_1fWStWjLqaX0a-"
 
         let client = new rhoova.RhoovaClient({apiKey: apiKey, apiSecret: apiSecret});
 
         client.createTask({data: taskData, calculationType: rhoova.CalculationType.IRS, waitResult: true}).then((result) => {
             document.getElementById("taskBody").innerHTML = "";
 
-            $.each(JSON.parse(result.result).data,function(index, value){
+            if(result.error){
+                document.getElementById("taskResult").style.display = "none";
+                document.getElementById("errorMessage").innerHTML = "";
+                document.getElementById("errorResult").style.display = "block";
+                document.getElementById("errorMessage").innerHTML = JSON.stringify((result.error));
+            }else{
+                $.each(JSON.parse(result.result).data,function(index, value){
+                    let tBody = '<tr><td>'+value.accrualEnd+'</td><td>'+value.accrualStart+'</td><td>'+value.cashflow+'</td>' +
+                        '<td>'+value.cashflowPv+'</td><td>'+value.currency+'</td><td>'+value.discountFactor+'</td>' +
+                        '<td>'+value.fixingDate+'</td><td>'+value.instrument+'</td><td>'+value.leg+'</td>' +
+                        '<td>'+value.notional+'</td><td>'+value.payOrReceive+'</td><td>'+value.rate+'</td>' +
+                        '<td>'+value.spread+'</td><td>'+value.termToMatByDay+'</td><td>'+value.termToMatByYear+'</td>' +
+                        '<td>'+value.zeroRate+'</td></tr>';
 
+                    $('#taskBody').append(tBody);
+                    document.getElementById("taskResult").style.display = "block";
+                    document.getElementById("errorResult").style.display = "none"
+                })
+            }
 
-                let tBody = '<tr><td>'+value.accrualEnd+'</td><td>'+value.accrualStart+'</td><td>'+value.cashflow+'</td>' +
-                    '<td>'+value.cashflowPv+'</td><td>'+value.currency+'</td><td>'+value.discountFactor+'</td>' +
-                    '<td>'+value.fixingDate+'</td><td>'+value.instrument+'</td><td>'+value.leg+'</td>' +
-                    '<td>'+value.notional+'</td><td>'+value.payOrReceive+'</td><td>'+value.rate+'</td>' +
-                    '<td>'+value.spread+'</td><td>'+value.termToMatByDay+'</td><td>'+value.termToMatByYear+'</td>' +
-                    '<td>'+value.zeroRate+'</td></tr>';
-
-                $('#taskBody').append(tBody);
-                document.getElementById("taskResult").style.display = "block"
-                document.getElementById("errorResult").style.display = "none"
-
-            })
         }).catch(error => {
-            console.log(error);
-            document.getElementById("taskResult").style.display = "none"
+            document.getElementById("taskResult").style.display = "none";
             document.getElementById("errorMessage").innerHTML = "";
-            document.getElementById("errorResult").style.display = "block"
-            document.getElementById("errorMessage").innerHTML = JSON.stringify((error))
+            document.getElementById("errorResult").style.display = "block";
+            document.getElementById("errorMessage").innerHTML = JSON.stringify((error));
             console.log(error)
         });
     })
+}
+
+function randomizeData(data){
+    data.forEach((item, index) => {
+        item.value = Math.floor(Math.random() * (item.value+0.01 - item.value-0.01)) + item.value-0.01;
+        data[index] = item;
+    });
+
+    return data;
 }
 
 

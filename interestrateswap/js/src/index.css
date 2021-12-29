@@ -1,26 +1,21 @@
 body {
-    background: linear-gradient(#e4e0ba, #f7d9aa);
+    background-color: #2E3344;
+    color: white;
     margin: 0px;
     overflow: hidden;
-}
-
-label {
-
-    font-size: 60px; /* 40px/16=2.5em */
-
 }
 
 .form-control {
 
     display: block;
 
-    width: 69%;
+    width: 90%;
 
     height: 45px;
 
     padding: 9px 11px;
 
-    margin-left: 20px;
+    margin-left: 10px;
 
     margin-bottom: 14px;
 
@@ -49,6 +44,7 @@ label {
     transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
 
 }
+
 
 .my-custom-scrollbar {
     position: relative;

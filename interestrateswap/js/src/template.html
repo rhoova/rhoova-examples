@@ -51,44 +51,37 @@
 
     });
 </script>
-<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" style=" background-color: #24293A"">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header" style="margin:0px">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="">Rhoova</a>
+        <a style="color: #ffffff;" class="navbar-brand" href="">Rhoova</a>
     </div>
 </nav>
 
 <div style="padding-left: 20px;padding-right: 20px;">
     <div class="row">
         <div class="col-lg-12">
-            <h3 class="page-header" style="margin-top:20px">Interest Rate Swap</h3>
+            <h3 class="page-header" style="margin-top:20px"><strong>Interest Rate Swap</strong></h3>
         </div>
     </div>
 
     <form id="formIrs">
-        <div class="row">
-            <div class="row col-md-6" >
-                <div>
-                    <label style="padding-left: 22px" for="apiKey" class="col-form-label">API Key</label>
-                    <input type="text" class="form-control  form-control-sm" id="apiKey" name="apiKey">
+        <div class="col-md-12 row">
+            <div class="row">
+                <div class="col-md-6 row">
+                    <label for="apiKey" style="padding-left: 13px" class="col-form-label">API Key</label>
+                    <input type="text" style="width: 100%!important;" class="form-control " id="apiKey" name="apiKey">
                 </div>
-            </div>
-            <div class="row col-md-6" >
-                <div>
-                    <label style="padding-left: 22px" for="apiSecret" class="col-form-label">API Secret</label>
-                    <input type="text" class="form-control  form-control-sm" id="apiSecret" name="apiSecret">
+                <div class="col-md-6 row">
+                    <label for="apiSecret" style="padding-left: 52px" class="col-form-label">API Secret</label>
+                    <input type="text" style="width: 100%!important; margin-left: 50px" class="form-control" id="apiSecret" name="apiSecret">
                 </div>
             </div>
         </div>
+        <hr>
         <div class="col-md-4">
             <div class="row">
-                <h4>Fixed Leg</h4>
+                <h3>Fixed Leg</h3>
                 <hr>
             </div>
             <div class="form-group row">
@@ -233,7 +226,7 @@
         </div>
         <div class="col-md-4">
             <div class="row">
-                <h4>Floating Leg</h4>
+                <h3>Floating Leg</h3>
                 <hr>
             </div>
             <div class="form-group row">
@@ -375,7 +368,7 @@
         </div>
         <div class="col-md-4">
             <div class="row">
-                <h4>Valuation Settings</h4>
+                <h3>Valuation Settings</h3>
                 <hr>
             </div>
             <div class="form-group row">
@@ -413,30 +406,33 @@
                     <input type="date" class="form-control" id="maturityDate" name="maturityDate" value="2026-06-04">
                 </div>
                 <label for="discountCurve" class="col-sm-2 col-form-label">DiscCurve</label>
-                <div class="col-sm-10 input-group">
-                    <input style="margin-left: 8%;width: 300px;"
+                <div class="col-sm-10 input-group" style="padding-bottom: 10px">
+                    <input style="margin-left: 25px;width: 86%;"
                            class='form-control discount-upload-button' type="file"/>
                     <input style="display: none" name="discountCurve" id="discountCurve"
                            type="text"/>
                 </div>
                 <label for="forecastCurve" class="col-sm-2 col-form-label">ForeCurve</label>
-                <div class="col-sm-10 input-group">
-                    <input style="margin-left: 8%;width: 300px;"
+                <div class="col-sm-10 input-group" style="padding-bottom: 10px">
+                    <input style="margin-left: 25px;width: 86%;"
                            class='floating-upload-button form-control' type="file"/>
                     <input style="display: none" name="forecastCurve" id="forecastCurve"
                            type="text"/>
                 </div>
                 <label for="yieldData" class="col-sm-2 col-form-label">YieldData</label>
                 <div class="col-sm-10 input-group">
-                    <input style="margin-left: 8%;width: 300px;" class="yieldData-upload-button form-control"
+                    <input style="margin-left: 25px;width: 86%;" class="yieldData-upload-button form-control"
                            type="file"/>
                     <input style="display: none" name="yieldData" id="yieldData" class='yieldData-upload-button'
                            type="text"/>
                 </div>
             </div>
         </div>
-        <div style="float: right !important;">
-            <button class="btn btn-primary" id="submitIrs">Compute</button>
+        <div style="float: right !important; margin-top: 30px">
+            <button style=" background-color: #5D92F4!important" class="btn btn-primary btn-lg" id="submitIrs">Calculate</button>
+        </div>
+        <div style="float: right !important; margin-right: 20px; margin-top: 30px">
+            <button style=" background-color: #5D92F4!important"  class="btn btn-primary btn-lg" id="randomizeAndSubmitIrs">Randomize and Calculate</button>
         </div>
     </form>
 </div>
