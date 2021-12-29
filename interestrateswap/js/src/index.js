@@ -5,6 +5,8 @@ const rhoova = require("@rhoova/node-client");
 function createTaskResult() {
     let createTask = document.querySelector('#formIrs');
 
+    let apiKey = null;
+    let apiSecret = null;
     createTask.addEventListener("submit", (event)=>{
         event.preventDefault();
 
@@ -22,7 +24,11 @@ function createTaskResult() {
         arrayData.forEach((data) => {
             let legString = "fixedLeg";
             let floatingString = "floatingLeg";
-            if (data.name.includes("fixedLeg")) {
+            if(data.name.includes("apiKey")){
+                apiKey = data.value
+            }else if(data.name.includes("apiSecret")){
+                apiSecret = data.value
+            }else if (data.name.includes("fixedLeg")) {
                 if(data.name.includes("coupon") || data.name.includes("endOfMonth")){
                     taskData["fixedLeg"][data.name.substring(legString.length, data.name.length)] =
                         data.name.includes("endOfMonth") ? data.value==='true' : parseFloat(data.value)
@@ -50,8 +56,9 @@ function createTaskResult() {
                 }
             }
         });
+        // apiKey: "wPJmuD1ABTqGiZVy6r5uz", apiSecret: "Fgnhnz2WfwGbFv3db_1fWStWjLqaX0a-"
 
-        let client = new rhoova.RhoovaClient({apiKey: "wPJmuD1ABTqGiZVy6r5uz", apiSecret: "Fgnhnz2WfwGbFv3db_1fWStWjLqaX0a-"});
+        let client = new rhoova.RhoovaClient({apiKey: apiKey, apiSecret: apiSecret});
 
         client.createTask({data: taskData, calculationType: rhoova.CalculationType.IRS, waitResult: true}).then((result) => {
             document.getElementById("taskBody").innerHTML = "";
