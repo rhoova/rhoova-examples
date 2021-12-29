@@ -2,6 +2,14 @@ import "./index.css"
 
 const rhoova = require("@rhoova/node-client");
 
+const taskData = {
+    "fixedLeg": {},
+    "floatingLeg": {},
+    "floatingLegForecastCurve": {},
+    "discountCurve": {},
+    "yieldData": {}
+};
+
 function createTaskResult() {
     let createTask = document.querySelector('#formIrs');
 
@@ -14,13 +22,6 @@ function createTaskResult() {
 
         var arrayData = $(form).serializeArray();
 
-        let taskData = {
-            "fixedLeg": {},
-            "floatingLeg": {},
-            "floatingLegForecastCurve": {},
-            "discountCurve": {},
-            "yieldData": {}
-        };
         arrayData.forEach((data) => {
             let legString = "fixedLeg";
             let floatingString = "floatingLeg";
@@ -43,11 +44,11 @@ function createTaskResult() {
                     taskData["floatingLeg"][data.name.substring(floatingString.length, data.name.length)] = data.value
                 }
             } else if (data.name.includes("forecastCurve") && data.value!=='') {
-                taskData["floatingLegForecastCurve"] = JSON.parse(data.value)
+               tryParseJSONObject(data.value, "floatingLegForecastCurve" );
             } else if (data.name.includes("discountCurve") && data.value!=='') {
-                taskData["discountCurve"] = JSON.parse(data.value)
+                tryParseJSONObject(data.value, "discountCurve" );
             } else if (data.name.includes("yieldData") && data.value!=='') {
-                taskData["yieldData"] = JSON.parse(data.value)
+                tryParseJSONObject(data.value, "yieldData" );
             } else {
                 if(data.name==="notional"){
                     taskData[data.name] = parseInt(data.value)
@@ -56,13 +57,11 @@ function createTaskResult() {
                 }
             }
         });
-        // apiKey: "wPJmuD1ABTqGiZVy6r5uz", apiSecret: "Fgnhnz2WfwGbFv3db_1fWStWjLqaX0a-"
-
+       //  apiKey: "wPJmuD1ABTqGiZVy6r5uz", apiSecret: "Fgnhnz2WfwGbFv3db_1fWStWjLqaX0a-"
         let client = new rhoova.RhoovaClient({apiKey: apiKey, apiSecret: apiSecret});
 
         client.createTask({data: taskData, calculationType: rhoova.CalculationType.IRS, waitResult: true}).then((result) => {
             document.getElementById("taskBody").innerHTML = "";
-
             $.each(JSON.parse(result.result).data,function(index, value){
 
 
@@ -88,6 +87,21 @@ function createTaskResult() {
         });
     })
 }
+function tryParseJSONObject (data, label){
 
+    try {
+        let object = JSON.parse(data);
+        if (object && typeof object === "object") {
+           return  taskData[label] = JSON.parse(data)
+        }
+    }
+    catch (e) {
+        document.getElementById("taskResult").style.display = "none";
+        document.getElementById("errorJsonMessage").innerHTML = label + " is not in json format" ;
+        document.getElementById("jsonFormatControl").style.display = "block";
+        throw new Error(e);
+    }
+
+}
 
 document.body.appendChild(createTaskResult());
