@@ -2,6 +2,14 @@ import "./index.css"
 
 const rhoova = require("@rhoova/node-client");
 
+const taskData = {
+    "fixedLeg": {},
+    "floatingLeg": {},
+    "floatingLegForecastCurve": {},
+    "discountCurve": {},
+    "yieldData": {}
+};
+
 function createTaskResult() {
     let createTask = document.querySelector('#formIrs');
 
@@ -14,13 +22,6 @@ function createTaskResult() {
 
         var arrayData = $(form).serializeArray();
 
-        let taskData = {
-            "fixedLeg": {},
-            "floatingLeg": {},
-            "floatingLegForecastCurve": {},
-            "discountCurve": {},
-            "yieldData": {}
-        };
         arrayData.forEach((data) => {
             let legString = "fixedLeg";
             let floatingString = "floatingLeg";
@@ -43,16 +44,11 @@ function createTaskResult() {
                     taskData["floatingLeg"][data.name.substring(floatingString.length, data.name.length)] = data.value
                 }
             } else if (data.name.includes("forecastCurve") && data.value!=='') {
-                taskData["floatingLegForecastCurve"] = JSON.parse(data.value)
+                isJSONObject(data.value, "floatingLegForecastCurve");
             } else if (data.name.includes("discountCurve") && data.value!=='') {
-                taskData["discountCurve"] = JSON.parse(data.value)
+                isJSONObject(data.value, "discountCurve");
             } else if (data.name.includes("yieldData") && data.value!=='') {
-                if(document.activeElement.id==="randomizeAndSubmitIrs"){
-                    console.log(JSON.parse(data.value));
-                    taskData["yieldData"] = randomizeData(JSON.parse(data.value))
-                }else{
-                    taskData["yieldData"] = JSON.parse(data.value)
-                }
+                isJSONObject(data.value, "yieldData");
             } else {
                 if(data.name==="notional"){
                     taskData[data.name] = parseInt(data.value)
@@ -95,6 +91,26 @@ function createTaskResult() {
             console.log(error)
         });
     })
+}
+
+function isJSONObject(data, label) {
+
+    try {
+        JSON.parse(data);
+        if (document.activeElement.id === "randomizeAndSubmitIrs" && label === "yieldData") {
+            taskData[label] = randomizeData(JSON.parse(data))
+        } else if (document.activeElement.id === "submitIrs" && label === "yieldData") {
+            taskData[label] = JSON.parse(data)
+        } else {
+            taskData[label] = JSON.parse(data)
+        }
+    } catch (e) {
+        document.getElementById("taskResult").style.display = "none";
+        document.getElementById("errorJsonMessage").innerHTML = label + " is not in json format";
+        document.getElementById("jsonFormatControl").style.display = "block";
+        throw new Error(e);
+    }
+
 }
 
 function randomizeData(data){
