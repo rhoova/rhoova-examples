@@ -5,13 +5,12 @@
     <title><%= htmlWebpackPlugin.options.title %></title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="index.css" type="text/css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.10.1/bootstrap-table.min.css">
-<!--    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>-->
-<!--    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>-->
-<!--    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.10.1/bootstrap-table.min.js"></script>-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js">
+
 
 </head>
 <body>
@@ -21,23 +20,35 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 <script src="index.js"></script>
 <script>
+    $(document).on('change', '.yieldData-upload-button', function (event) {
 
-    $("#submitIrs").on('click', function () {
-
-        e.preventDefault();
-
-    });
-</script>
-<script>
-    $(document).on('change', '.file-upload-button', function(event) {
-        var reader = new FileReader();
+        let reader = new FileReader();
 
         reader.onload = function(event) {
-            var jsonObj = event.target.result;
-            console.log(jsonObj)
+            document.getElementById("yieldData").value = event.target.result;
         };
 
         reader.readAsText(event.target.files[0]);
+    });
+
+    $(document).on('change', '.discount-upload-button', function (event) {
+        let reader = new FileReader();
+
+        reader.onload = function (event) {
+            document.getElementById("discountCurve").value = event.target.result;
+        };
+        reader.readAsText(event.target.files[0]);
+
+    });
+
+    $(document).on('change', '.floating-upload-button', function (event) {
+        let reader = new FileReader();
+
+        reader.onload = function (event) {
+            document.getElementById("forecastCurve").value = event.target.result;
+        };
+        reader.readAsText(event.target.files[0]);
+
     });
 </script>
 <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -53,13 +64,10 @@
     </div>
 </nav>
 
-<div class="container">
-    <!--Heading -->
-<!--    <button type="submit" class="btn btn-primary" id="submit_fixedratebond">Compute222</button>-->
-
+<div style="padding-left: 20px;padding-right: 20px;">
     <div class="row">
         <div class="col-lg-12">
-            <h3 class="page-header" style="margin:0px">Interest Rate Swap</h3>
+            <h3 class="page-header" style="margin-top:20px">Interest Rate Swap</h3>
         </div>
     </div>
 
@@ -70,285 +78,283 @@
                 <hr>
             </div>
             <div class="form-group row">
-                <label for="payorreceive" class="col-sm-2 col-form-label">PayorReceive</label>
+                <label for="fixedLegpayorreceive" class="col-sm-2 col-form-label">PayorReceive</label>
                 <div class="col-sm-10">
-                    <select class="form-control">
-                        <option selected>Pay</option>
-                        <option value="1">Receive</option>
+                    <select class="form-control" name="fixedLegpayorreceive">
+                        <option value="Pay" selected>Pay</option>
+                        <option value="Receive">Receive</option>
                     </select>
                 </div>
-                <label for="coupon" class="col-sm-2 col-form-label">Coupon</label>
+                <label for="fixedLegcoupon" class="col-sm-2 col-form-label">Coupon</label>
                 <div class="col-sm-10">
                     <input type="number" min="0" max="1" step="0.001" class="form-control  form-control-sm" id="coupon"
-                           placeholder="coupon" value=0.085>
+                           placeholder="coupon" value=0.085 name="fixedLegcoupon">
                 </div>
-                <label for="frequency" class="col-sm-2 col-form-label">Frequency</label>
+                <label for="fixedLegfrequency" class="col-sm-2 col-form-label">Frequency</label>
                 <div class="col-sm-10">
-                    <select class="form-control">
-                        <option selected>Annual</option>
-                        <option value="1">Semiannual</option>
-                        <option value="2">Quarterly</option>
-                        <option value="3">EveryFourthMonth</option>
-                        <option value="4">Bimonthly</option>
-                        <option value="5">Monthly</option>
-                        <option value="6">EveryFourthWeek</option>
-                        <option value="7">Biweekly</option>
-                        <option value="8">Weekly</option>
-                        <option value="9">Daily</option>
-                        <option value="10">OtherFrequency</option>
-                        <option value="11">NoFrequency</option>
-                        <option value="12">Once</option>
+                    <select class="form-control" name="fixedLegfrequency">
+                        <option value="Annual" selected>Annual</option>
+                        <option value="Semiannual">Semiannual</option>
+                        <option value="Quarterly">Quarterly</option>
+                        <option value="EveryFourthMonth">EveryFourthMonth</option>
+                        <option value="Bimonthly">Bimonthly</option>
+                        <option value="Monthly">Monthly</option>
+                        <option value="EveryFourthWeek">EveryFourthWeek</option>
+                        <option value="Biweekly">Biweekly</option>
+                        <option value="Weekly">Weekly</option>
+                        <option value="Daily">Daily</option>
+                        <option value="OtherFrequency">OtherFrequency</option>
+                        <option value="NoFrequency">NoFrequency</option>
+                        <option value="Once">Once</option>
                     </select>
                 </div>
-                <label for="dayCounter" class="col-sm-2 col-form-label">DayCounter</label>
+                <label for="fixedLegdayCounter" class="col-sm-2 col-form-label">DayCounter</label>
                 <div class="col-sm-10">
-                    <select class="form-control">
-                        <option selected>Actual360</option>
-                        <option value="1">Actual360Fixed</option>
-                        <option value="2">Actual365Fixed</option>
-                        <option value="3">ActualActual</option>
-                        <option value="4">Business252</option>
-                        <option value="5">OneDayCounter</option>
-                        <option value="6">SimpleDayCounter</option>
-                        <option value="7">Thirty360</option>
-                        <option value="8">Actual365</option>
-                        <option value="9">ActualActualISMA</option>
-                        <option value="10">ActualActualISDA</option>
-                        <option value="11">ActualActualAFB</option>
-                        <option value="12">ActualActualEURO</option>
+                    <select class="form-control" name="fixedLegdayCounter">
+                        <option value="Actual360" selected>Actual360</option>
+                        <option value="Actual360Fixed">Actual360Fixed</option>
+                        <option value="Actual365Fixed">Actual365Fixed</option>
+                        <option value="ActualActual">ActualActual</option>
+                        <option value="Business252">Business252</option>
+                        <option value="OneDayCounter">OneDayCounter</option>
+                        <option value="SimpleDayCounter">SimpleDayCounter</option>
+                        <option value="Thirty360">Thirty360</option>
+                        <option value="Actual365">Actual365</option>
+                        <option value="ActualActualISMA">ActualActualISMA</option>
+                        <option value="ActualActualISDA">ActualActualISDA</option>
+                        <option value="ActualActualAFB">ActualActualAFB</option>
+                        <option value="ActualActualEURO">ActualActualEURO</option>
                     </select>
                 </div>
-                <label for="calendar" class="col-sm-2 col-form-label">Calendar</label>
+                <label for="fixedLegcalendar" class="col-sm-2 col-form-label">Calendar</label>
                 <div class="col-sm-10">
-                    <select class="form-control">
-                        <option selected>Turkey</option>
-                        <option value="1">UnitedStates</option>
-                        <option value="2">UnitedKingdom</option>
-                        <option value="3">Israel</option>
-                        <option value="4">Poland</option>
-                        <option value="5">Slovakia</option>
-                        <option value="6">Romania</option>
-                        <option value="7">Indonesia</option>
-                        <option value="8">SouthAfrica</option>
-                        <option value="9">Germany</option>
-                        <option value="10">CzechRepublic</option>
-                        <option value="11">SouthKorea</option>
-                        <option value="12">Japan</option>
-                        <option value="13">Singapore</option>
-                        <option value="14">Switzerland</option>
-                        <option value="15">Taiwan</option>
-                        <option value="16">China</option>
-                        <option value="17">Brazil</option>
-                        <option value="18">Italy</option>
-                        <option value="19">Finland</option>
-                        <option value="20">Botswana</option>
-                        <option value="21">Mexico</option>
-                        <option value="22">Ukraine</option>
-                        <option value="23">India</option>
-                        <option value="24">HongKong</option>
-                        <option value="25">Sweden</option>
-                        <option value="26">Iceland</option>
-                        <option value="27">SaudiArabia</option>
-                        <option value="28">NewZealand</option>
-                        <option value="29">Denmark</option>
-                        <option value="30">Russia</option>
-                        <option value="31">Argentina</option>
-                        <option value="32">Thailand</option>
-                        <option value="33">France</option>
-                        <option value="34">Norway</option>
-                        <option value="35">WeekendsOnly</option>
-                        <option value="36">NullCalendar</option>
-                        <option value="37">TARGET</option>
-                        <option value="38">BespokeCalendar</option>
+                    <select class="form-control" name="fixedLegcalendar">
+                        <option value="Turkey" selected>Turkey</option>
+                        <option value="UnitedStates">UnitedStates</option>
+                        <option value="UnitedKingdom">UnitedKingdom</option>
+                        <option value="Israel">Israel</option>
+                        <option value="Poland">Poland</option>
+                        <option value="Slovakia">Slovakia</option>
+                        <option value="Romania">Romania</option>
+                        <option value="Indonesia">Indonesia</option>
+                        <option value="SouthAfrica">SouthAfrica</option>
+                        <option value="Germany">Germany</option>
+                        <option value="CzechRepublic">CzechRepublic</option>
+                        <option value="SouthKorea">SouthKorea</option>
+                        <option value="Japan">Japan</option>
+                        <option value="Singapore">Singapore</option>
+                        <option value="Switzerland">Switzerland</option>
+                        <option value="Taiwan">Taiwan</option>
+                        <option value="China">China</option>
+                        <option value="Brazil">Brazil</option>
+                        <option value="Italy">Italy</option>
+                        <option value="Finland">Finland</option>
+                        <option value="Botswana">Botswana</option>
+                        <option value="Mexico">Mexico</option>
+                        <option value="Ukraine">Ukraine</option>
+                        <option value="India">India</option>
+                        <option value="HongKong">HongKong</option>
+                        <option value="Sweden">Sweden</option>
+                        <option value="Iceland">Iceland</option>
+                        <option value="SaudiArabia">SaudiArabia</option>
+                        <option value="NewZealand">NewZealand</option>
+                        <option value="Denmark">Denmark</option>
+                        <option value="Russia">Russia</option>
+                        <option value="Argentina">Argentina</option>
+                        <option value="Thailand">Thailand</option>
+                        <option value="France">France</option>
+                        <option value="Norway">Norway</option>
+                        <option value="WeekendsOnly">WeekendsOnly</option>
+                        <option value="NullCalendar">NullCalendar</option>
+                        <option value="TARGET">TARGET</option>
+                        <option value="BespokeCalendar">BespokeCalendar</option>
                     </select>
                 </div>
-                <label for="businessDayConvention" class="col-sm-2 col-form-label">BDayConven.</label>
+                <label for="fixedLegbusinessDayConvention" class="col-sm-2 col-form-label">BDayConven.</label>
                 <div class="col-sm-10">
-                    <select class="form-control">
-                        <option selected>Following</option>
-                        <option value="1">ModifiedFollowing</option>
-                        <option value="2">Preceding</option>
-                        <option value="3">ModifiedPreceding</option>
-                        <option value="4">Unadjusted</option>
-                        <option value="5">HalfMonthModifiedFollowing</option>
-                        <option value="6">Nearest</option>
+                    <select class="form-control" name="fixedLegbusinessDayConvention">
+                        <option value="Following" selected>Following</option>
+                        <option value="ModifiedFollowing">ModifiedFollowing</option>
+                        <option value="Preceding">Preceding</option>
+                        <option value="ModifiedPreceding">ModifiedPreceding</option>
+                        <option value="Unadjusted">Unadjusted</option>
+                        <option value="HalfMonthModifiedFollowing">HalfMonthModifiedFollowing</option>
+                        <option value="Nearest">Nearest</option>
                     </select>
                 </div>
-                <label for="matdayconvention" class="col-sm-2 col-form-label">MDayConven.</label>
+                <label for="fixedLegmaturityDayConvention" class="col-sm-2 col-form-label">MDayConven.</label>
                 <div class="col-sm-10">
-                    <select class="form-control">
-                        <option selected>Following</option>
-                        <option value="1">ModifiedFollowing</option>
-                        <option value="2">Preceding</option>
-                        <option value="3">ModifiedPreceding</option>
-                        <option value="4">Unadjusted</option>
-                        <option value="5">HalfMonthModifiedFollowing</option>
-                        <option value="6">Nearest</option>
+                    <select class="form-control" name="fixedLegmaturityDayConvention">
+                        <option value="Following" selected>Following</option>
+                        <option value="ModifiedFollowing">ModifiedFollowing</option>
+                        <option value="Preceding">Preceding</option>
+                        <option value="ModifiedPreceding">ModifiedPreceding</option>
+                        <option value="Unadjusted">Unadjusted</option>
+                        <option value="HalfMonthModifiedFollowing">HalfMonthModifiedFollowing</option>
+                        <option value="Nearest">Nearest</option>
                     </select>
                 </div>
-                <label for="dategeneration" class="col-sm-2 col-form-label">DateGeneration</label>
+                <label for="fixedLegdateGeneration" class="col-sm-2 col-form-label">DateGeneration</label>
                 <div class="col-sm-10">
-                    <select class="form-control">
-                        <option selected>Backward</option>
-                        <option value="1">Forward</option>
-                        <option value="2">Twentieth</option>
-                        <option value="3">TwentiethIMM</option>
-                        <option value="4">ThirdWednesday</option>
-                        <option value="5">CDS</option>
-                        <option value="6">CDS2015</option>
-                        <option value="7">OldCDS</option>
-                        <option value="8">Zero</option>
+                    <select class="form-control" name="fixedLegdateGeneration">
+                        <option value="Backward" selected>Backward</option>
+                        <option value="Forward">Forward</option>
+                        <option value="Twentieth">Twentieth</option>
+                        <option value="TwentiethIMM">TwentiethIMM</option>
+                        <option value="ThirdWednesday">ThirdWednesday</option>
+                        <option value="CDS">CDS</option>
+                        <option value="CDS2015">CDS2015</option>
+                        <option value="OldCDS">OldCDS</option>
+                        <option value="Zero">Zero</option>
                     </select>
                 </div>
-                <label for="endofmonth" class="col-sm-2 col-form-label">EndofMonth</label>
+                <label for="fixedLegendOfMonth" class="col-sm-2 col-form-label">EndofMonth</label>
                 <div class="col-sm-10">
-                    <select class="form-control">
-                        <option selected>True</option>
-                        <option value="1">False</option>
+                    <select class="form-control" name="fixedLegendOfMonth">
+                        <option value="True" selected>True</option>
+                        <option value="False">False</option>
                     </select>
                 </div>
             </div>
         </div>
-
         <div class="col-md-4">
             <div class="row">
                 <h4>Floating Leg</h4>
                 <hr>
             </div>
             <div class="form-group row">
-                <label for="index" class="col-sm-2 col-form-label">Index</label>
+                <label for="floatingLegindex" class="col-sm-2 col-form-label">Index</label>
                 <div class="col-sm-10">
-                    <input type="text" class="form-control" placeholder="USD3M">
+                    <input type="text" class="form-control" name="floatingLegindex" placeholder="TRLibor1Y" value="TRLibor1Y">
                 </div>
-                <label for="spread" class="col-sm-2 col-form-label">Spread</label>
+                <label for="floatingLegspread" class="col-sm-2 col-form-label">Spread</label>
                 <div class="col-sm-10">
                     <input type="number" min="0" max="1" step="0.001" class="form-control  form-control-sm" id="spread"
-                           placeholder="spread" value=0>
+                           placeholder="spread" value=0 name="floatingLegspread">
 
                 </div>
-                <label for="frequency" class="col-sm-2 col-form-label">Frequency</label>
+                <label for="floatingLegfrequency" class="col-sm-2 col-form-label">Frequency</label>
                 <div class="col-sm-10">
-                    <select class="form-control">
-                        <option selected>Annual</option>
-                        <option value="1">Semiannual</option>
-                        <option value="2">Quarterly</option>
-                        <option value="3">EveryFourthMonth</option>
-                        <option value="4">Bimonthly</option>
-                        <option value="5">Monthly</option>
-                        <option value="6">EveryFourthWeek</option>
-                        <option value="7">Biweekly</option>
-                        <option value="8">Weekly</option>
-                        <option value="9">Daily</option>
-                        <option value="10">OtherFrequency</option>
-                        <option value="11">NoFrequency</option>
-                        <option value="12">Once</option>
+                    <select class="form-control" name="floatingLegfrequency">
+                        <option value="Annual" selected>Annual</option>
+                        <option value="Semiannual">Semiannual</option>
+                        <option value="Quarterly">Quarterly</option>
+                        <option value="EveryFourthMonth">EveryFourthMonth</option>
+                        <option value="Bimonthly">Bimonthly</option>
+                        <option value="Monthly">Monthly</option>
+                        <option value="EveryFourthWeek">EveryFourthWeek</option>
+                        <option value="Biweekly">Biweekly</option>
+                        <option value="Weekly">Weekly</option>
+                        <option value="Daily">Daily</option>
+                        <option value="OtherFrequency">OtherFrequency</option>
+                        <option value="NoFrequency">NoFrequency</option>
+                        <option value="Once">Once</option>
                     </select>
                 </div>
-                <label for="dayCounter" class="col-sm-2 col-form-label">DayCounter</label>
+                <label for="floatingLegdayCounter" class="col-sm-2 col-form-label">DayCounter</label>
                 <div class="col-sm-10">
-                    <select class="form-control">
-                        <option selected>Actual360</option>
-                        <option value="1">Actual360Fixed</option>
-                        <option value="2">Actual365Fixed</option>
-                        <option value="3">ActualActual</option>
-                        <option value="4">Business252</option>
-                        <option value="5">OneDayCounter</option>
-                        <option value="6">SimpleDayCounter</option>
-                        <option value="7">Thirty360</option>
-                        <option value="8">Actual365</option>
-                        <option value="9">ActualActualISMA</option>
-                        <option value="10">ActualActualISDA</option>
-                        <option value="11">ActualActualAFB</option>
-                        <option value="12">ActualActualEURO</option>
+                    <select class="form-control" name="floatingLegdayCounter">
+                        <option value="Actual360" selected>Actual360</option>
+                        <option value="Actual360Fixed">Actual360Fixed</option>
+                        <option value="Actual365Fixed">Actual365Fixed</option>
+                        <option value="ActualActual">ActualActual</option>
+                        <option value="Business252">Business252</option>
+                        <option value="OneDayCounter">OneDayCounter</option>
+                        <option value="SimpleDayCounter">SimpleDayCounter</option>
+                        <option value="Thirty360">Thirty360</option>
+                        <option value="Actual365">Actual365</option>
+                        <option value="ActualActualISMA">ActualActualISMA</option>
+                        <option value="ActualActualISDA">ActualActualISDA</option>
+                        <option value="ActualActualEURO">ActualActualEURO</option>
                     </select>
                 </div>
-                <label for="calendar" class="col-sm-2 col-form-label">Calendar</label>
+                <label for="floatingLegcalendar" class="col-sm-2 col-form-label">Calendar</label>
                 <div class="col-sm-10">
-                    <select class="form-control">
-                        <option selected>Turkey</option>
-                        <option value="1">UnitedStates</option>
-                        <option value="2">UnitedKingdom</option>
-                        <option value="3">Israel</option>
-                        <option value="4">Poland</option>
-                        <option value="5">Slovakia</option>
-                        <option value="6">Romania</option>
-                        <option value="7">Indonesia</option>
-                        <option value="8">SouthAfrica</option>
-                        <option value="9">Germany</option>
-                        <option value="10">CzechRepublic</option>
-                        <option value="11">SouthKorea</option>
-                        <option value="12">Japan</option>
-                        <option value="13">Singapore</option>
-                        <option value="14">Switzerland</option
-                        <option value="15">Taiwan</option>
-                        <option value="16">China</option>
-                        <option value="17">Brazil</option>
-                        <option value="18">Italy</option>
-                        <option value="19">Finland</option>
-                        <option value="20">Botswana</option>
-                        <option value="21">Mexico</option>
-                        <option value="22">Ukraine</option>
-                        <option value="23">India</option>
-                        <option value="24">HongKong</option>
-                        <option value="25">Sweden</option>
-                        <option value="26">Iceland</option>
-                        <option value="27">SaudiArabia</option>
-                        <option value="28">NewZealand</option>
-                        <option value="29">Denmark</option>
-                        <option value="30">Russia</option>
-                        <option value="31">Argentina</option>
-                        <option value="32">Thailand</option>
-                        <option value="33">France</option>
-                        <option value="34">Norway</option>
-                        <option value="35">WeekendsOnly</option>
-                        <option value="36">NullCalendar</option>
-                        <option value="37">TARGET</option>
-                        <option value="38">BespokeCalendar</option>
+                    <select class="form-control" name="floatingLegcalendar">
+                        <option value="Turkey" selected>Turkey</option>
+                        <option value="UnitedStates">UnitedStates</option>
+                        <option value="UnitedKingdom">UnitedKingdom</option>
+                        <option value="Israel">Israel</option>
+                        <option value="Poland">Poland</option>
+                        <option value="Slovakia">Slovakia</option>
+                        <option value="Romania">Romania</option>
+                        <option value="Indonesia">Indonesia</option>
+                        <option value="SouthAfrica">SouthAfrica</option>
+                        <option value="Germany">Germany</option>
+                        <option value="CzechRepublic">CzechRepublic</option>
+                        <option value="SouthKorea">SouthKorea</option>
+                        <option value="Japan">Japan</option>
+                        <option value="Singapore">Singapore</option>
+                        <option value="Switzerland">Switzerland</option>
+                        <option value="Taiwan">Taiwan</option>
+                        <option value="China">China</option>
+                        <option value="Brazil">Brazil</option>
+                        <option value="Italy">Italy</option>
+                        <option value="Finland">Finland</option>
+                        <option value="Botswana">Botswana</option>
+                        <option value="Mexico">Mexico</option>
+                        <option value="Ukraine">Ukraine</option>
+                        <option value="India">India</option>
+                        <option value="HongKong">HongKong</option>
+                        <option value="Sweden">Sweden</option>
+                        <option value="Iceland">Iceland</option>
+                        <option value="SaudiArabia">SaudiArabia</option>
+                        <option value="NewZealand">NewZealand</option>
+                        <option value="Denmark">Denmark</option>
+                        <option value="Russia">Russia</option>
+                        <option value="Argentina">Argentina</option>
+                        <option value="Thailand">Thailand</option>
+                        <option value="France">France</option>
+                        <option value="Norway">Norway</option>
+                        <option value="WeekendsOnly">WeekendsOnly</option>
+                        <option value="NullCalendar">NullCalendar</option>
+                        <option value="TARGET">TARGET</option>
+                        <option value="BespokeCalendar">BespokeCalendar</option>
                     </select>
                 </div>
-                <label for="businessDayConvention" class="col-sm-2 col-form-label">BDayConven.</label>
+                <label for="floatingLegmaturityDayConvention" class="col-sm-2 col-form-label">MDayConven.</label>
                 <div class="col-sm-10">
-                    <select class="form-control">
-                        <option selected>Following</option>
-                        <option value="1">ModifiedFollowing</option>
-                        <option value="2">Preceding</option>
-                        <option value="3">ModifiedPreceding</option>
-                        <option value="4">Unadjusted</option>
-                        <option value="5">HalfMonthModifiedFollowing</option>
-                        <option value="6">Nearest</option>
+                    <select class="form-control" name="floatingLegmaturityDayConvention">
+                        <option value="Following" selected>Following</option>
+                        <option value="ModifiedFollowing">ModifiedFollowing</option>
+                        <option value="Preceding">Preceding</option>
+                        <option value="ModifiedPreceding">ModifiedPreceding</option>
+                        <option value="Unadjusted">Unadjusted</option>
+                        <option value="HalfMonthModifiedFollowing">HalfMonthModifiedFollowing</option>
+                        <option value="Nearest">Nearest</option>
                     </select>
                 </div>
-                <label for="matdayconvention" class="col-sm-2 col-form-label">MDayConven.</label>
+                <label for="floatingLegbusinessDayConvention" class="col-sm-2 col-form-label">BDayConven.</label>
                 <div class="col-sm-10">
-                    <select class="form-control">
-                        <option selected>Following</option>
-                        <option value="1">ModifiedFollowing</option>
-                        <option value="2">Preceding</option>
-                        <option value="3">ModifiedPreceding</option>
-                        <option value="4">Unadjusted</option>
-                        <option value="5">HalfMonthModifiedFollowing</option>
-                        <option value="6">Nearest</option>
+                    <select class="form-control" name="floatingLegbusinessDayConvention">
+                        <option value="Following" selected>Following</option>
+                        <option value="ModifiedFollowing">ModifiedFollowing</option>
+                        <option value="Preceding">Preceding</option>
+                        <option value="ModifiedPreceding">ModifiedPreceding</option>
+                        <option value="Unadjusted">Unadjusted</option>
+                        <option value="HalfMonthModifiedFollowing">HalfMonthModifiedFollowing</option>
+                        <option value="Nearest">Nearest</option>
                     </select>
                 </div>
-                <label for="dategeneration" class="col-sm-2 col-form-label">DateGeneration</label>
+                <label for="floatingLegdateGeneration" class="col-sm-2 col-form-label">DateGeneration</label>
                 <div class="col-sm-10">
-                    <select class="form-control">
-                        <option selected>Backward</option>
-                        <option value="1">Forward</option>
-                        <option value="2">Twentieth</option>
-                        <option value="3">TwentiethIMM</option>
-                        <option value="4">ThirdWednesday</option>
-                        <option value="5">CDS</option>
-                        <option value="6">CDS2015</option>
-                        <option value="7">OldCDS</option>
-                        <option value="8">Zero</option>
+                    <select class="form-control" name="floatingLegdateGeneration">
+                        <option value="Backward" selected>Backward</option>
+                        <option value="Forward">Forward</option>
+                        <option value="Twentieth">Twentieth</option>
+                        <option value="TwentiethIMM">TwentiethIMM</option>
+                        <option value="ThirdWednesday">ThirdWednesday</option>
+                        <option value="CDS">CDS</option>
+                        <option value="CDS2015">CDS2015</option>
+                        <option value="OldCDS">OldCDS</option>
+                        <option value="Zero">Zero</option>
                     </select>
                 </div>
-                <label for="endofmonth" class="col-sm-2 col-form-label">EndofMonth</label>
+                <label for="floatingLegendOfMonth" class="col-sm-2 col-form-label">EndofMonth</label>
                 <div class="col-sm-10">
-                    <select class="form-control">
-                        <option selected>True</option>
-                        <option value="1">False</option>
+                    <select class="form-control" name="floatingLegendOfMonth">
+                        <option value="True" selected>True</option>
+                        <option value="False">False</option>
                     </select>
                 </div>
             </div>
@@ -361,63 +367,73 @@
             <div class="form-group row">
                 <label for="notional" class="col-sm-2 col-form-label">Notional</label>
                 <div class="col-sm-10">
-                    <input type="number" class="form-control  form-control-sm" id="notional" placeholder="notional"
+                    <input type="number" class="form-control  form-control-sm" id="notional" name="notional"
+                           placeholder="notional"
                            value=10000000>
                 </div>
                 <label for="currency" class="col-sm-2 col-form-label">Currency</label>
                 <div class="col-sm-10">
-                    <select class="form-control">
-                        <option selected>USD</option>
-                        <option value="1">TRY</option>
-                        <option value="2">EUR</option>
-                        <option value="3">GBP</option>
-                        <option value="4">JPY</option>
+                    <select class="form-control" name="currency">
+                        <option value="USD" selected>USD</option>
+                        <option value="TRY">TRY</option>
+                        <option value="EUR">EUR</option>
+                        <option value="GBP">GBP</option>
+                        <option value="JPY">JPY</option>
                     </select>
                 </div>
                 <label for="valuationDate" class="col-sm-2 col-form-label">ValueDate</label>
                 <div class="col-sm-10">
-                    <input type="date" class="form-control" id="valuationDate" name="valuationDate" value="2016-12-22">
+                    <input type="date" class="form-control" id="valuationDate" name="valuationDate" value="2021-06-02">
                 </div>
                 <label for="settlementDate" class="col-sm-2 col-form-label">Sett.Date</label>
                 <div class="col-sm-10">
                     <input type="date" class="form-control" id="settlementDate" name="settlementDate"
-                           value="2016-12-22">
+                           value="2021-06-04">
                 </div>
                 <label for="startDate" class="col-sm-2 col-form-label">StartDate</label>
                 <div class="col-sm-10">
-                    <input type="date" class="form-control" id="startDate" name="startDate" value="2016-12-22">
+                    <input type="date" class="form-control" id="startDate" name="startDate" value="2021-06-04">
                 </div>
                 <label for="maturityDate" class="col-sm-2 col-form-label">Mat.Date</label>
                 <div class="col-sm-10">
-                    <input type="date" class="form-control" id="maturityDate" name="maturityDate" value="2016-12-22">
+                    <input type="date" class="form-control" id="maturityDate" name="maturityDate" value="2026-06-04">
                 </div>
-                <label for="discountcurve" class="col-sm-2 col-form-label">DiscCurve</label>
-                <div class="col-sm-10">
-                    <input id="discountcurve" style="margin-left: 8%;width: 300px;" class='file-upload-button' type="file" />
+                <label for="discountCurve" class="col-sm-2 col-form-label">DiscCurve</label>
+                <div class="col-sm-10 input-group">
+                    <input style="margin-left: 8%;width: 300px;"
+                           class='form-control discount-upload-button' type="file"/>
+                    <input style="display: none" name="discountCurve" id="discountCurve"
+                           type="text"/>
                 </div>
-                <label for="forecastcurve" class="col-sm-2 col-form-label">ForeCurve</label>
-                <div class="col-sm-10">
-                        <input style="margin-left: 8%;width: 300px;" class='file-upload-button' type="file"  />
+                <label for="forecastCurve" class="col-sm-2 col-form-label">ForeCurve</label>
+                <div class="col-sm-10 input-group">
+                    <input style="margin-left: 8%;width: 300px;"
+                           class='floating-upload-button form-control' type="file"/>
+                    <input style="display: none" name="forecastCurve" id="forecastCurve"
+                           type="text"/>
                 </div>
-                <label for="yielddata" class="col-sm-2 col-form-label">YieldData</label>
-                <div class="col-sm-10">
-                    <input style="margin-left: 8%;width: 300px;" class='file-upload-button' type="file"  />
+                <label for="yieldData" class="col-sm-2 col-form-label">YieldData</label>
+                <div class="col-sm-10 input-group">
+                    <input style="margin-left: 8%;width: 300px;" class="yieldData-upload-button form-control"
+                           type="file"/>
+                    <input style="display: none" name="yieldData" id="yieldData" class='yieldData-upload-button'
+                           type="text"/>
                 </div>
             </div>
         </div>
-        <div>
+        <div style="float: right !important;">
             <button class="btn btn-primary" id="submitIrs">Compute</button>
         </div>
     </form>
 </div>
-<div class="p-3" id="taskResult" style="display:none; padding-left: 20px;padding-right: 20px; ">
+
+<div class="p-3" id="taskResult" style="display:none;padding-right: 20px;">
     <div class="row">
         <div class="col-lg-12">
-            <h3 class="page-header" style="margin:0px">Calculation Result</h3>
+            <h3 style="margin-top:20px">Calculation Result</h3>
         </div>
     </div>
-
-    <div class="table-wrapper-scroll-y my-custom-scrollbar">
+    <div class="table-wrapper-scroll-y my-custom-scrollbar" style="height: 500px!important; padding-left: 10px">
         <table id="taskResultTable"
                class="table table-bordered table-striped mb-0" style=" overflow: scroll">
             <thead>
@@ -447,6 +463,14 @@
 
     </div>
 </div>
+<div id="errorResult" style="display:none;">
+    <div class="row">
+        <div class="col-lg-12 alert alert-info" role="alert">
+            <h3 id="errorMessage" style="margin-top:20px"></h3>
+        </div>
+    </div>
+</div>
+
 </body>
 
 </html>
