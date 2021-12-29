@@ -54,18 +54,27 @@ function createTaskResult() {
         let client = new rhoova.RhoovaClient({apiKey: "wPJmuD1ABTqGiZVy6r5uz", apiSecret: "Fgnhnz2WfwGbFv3db_1fWStWjLqaX0a-"});
 
         client.createTask({data: taskData, calculationType: rhoova.CalculationType.IRS, waitResult: true}).then((result) => {
+            document.getElementById("taskBody").innerHTML = "";
+
             $.each(JSON.parse(result.result).data,function(index, value){
+
+
                 let tBody = '<tr><td>'+value.accrualEnd+'</td><td>'+value.accrualStart+'</td><td>'+value.cashflow+'</td>' +
                     '<td>'+value.cashflowPv+'</td><td>'+value.currency+'</td><td>'+value.discountFactor+'</td>' +
                     '<td>'+value.fixingDate+'</td><td>'+value.instrument+'</td><td>'+value.leg+'</td>' +
                     '<td>'+value.notional+'</td><td>'+value.payOrReceive+'</td><td>'+value.rate+'</td>' +
                     '<td>'+value.spread+'</td><td>'+value.termToMatByDay+'</td><td>'+value.termToMatByYear+'</td>' +
                     '<td>'+value.zeroRate+'</td></tr>';
+
                 $('#taskBody').append(tBody);
                 document.getElementById("taskResult").style.display = "block"
+                document.getElementById("errorResult").style.display = "none"
+
             })
         }).catch(error => {
             console.log(error);
+            document.getElementById("taskResult").style.display = "none"
+            document.getElementById("errorMessage").innerHTML = "";
             document.getElementById("errorResult").style.display = "block"
             document.getElementById("errorMessage").innerHTML = JSON.stringify((error))
             console.log(error)
