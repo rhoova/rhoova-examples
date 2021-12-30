@@ -106,8 +106,9 @@ function isJSONObject(data, label) {
         }
     } catch (e) {
         document.getElementById("taskResult").style.display = "none";
-        document.getElementById("errorJsonMessage").innerHTML = label + " is not in json format";
-        document.getElementById("jsonFormatControl").style.display = "block";
+        document.getElementById("errorMessage").innerHTML = "";
+        document.getElementById("errorResult").style.display = "block";
+        document.getElementById("errorMessage").innerHTML = label + " is not json format";
         throw new Error(e);
     }
 
