@@ -12,7 +12,6 @@ const taskData = {
 
 function createTaskResult() {
     let createTask = document.querySelector('#formIrs');
-
     let apiKey = null;
     let apiSecret = null;
     createTask.addEventListener("submit", (event)=>{
@@ -21,7 +20,8 @@ function createTaskResult() {
         let form = $('#formIrs');
 
         var arrayData = $(form).serializeArray();
-
+        document.getElementById("loadingIcon").style.display = "inline-block";
+        document.getElementById("errorResult").style.display = "none";
         arrayData.forEach((data) => {
             let legString = "fixedLeg";
             let floatingString = "floatingLeg";
@@ -62,13 +62,14 @@ function createTaskResult() {
 
         client.createTask({data: taskData, calculationType: rhoova.CalculationType.IRS, waitResult: true}).then((result) => {
             document.getElementById("taskBody").innerHTML = "";
-
+            document.getElementById("loadingIcon").style.display = "none";
             if(result.error){
                 document.getElementById("taskResult").style.display = "none";
                 document.getElementById("errorMessage").innerHTML = "";
                 document.getElementById("errorResult").style.display = "block";
                 document.getElementById("errorMessage").innerHTML = JSON.stringify((result.error));
             }else{
+                document.getElementById("loadingIcon").style.display = "none";
                 $.each(JSON.parse(result.result).data,function(index, value){
                     let tBody = '<tr><td>'+value.accrualEnd+'</td><td>'+value.accrualStart+'</td><td>'+value.cashflow+'</td>' +
                         '<td>'+value.cashflowPv+'</td><td>'+value.currency+'</td><td>'+value.discountFactor+'</td>' +
@@ -76,14 +77,25 @@ function createTaskResult() {
                         '<td>'+value.notional+'</td><td>'+value.payOrReceive+'</td><td>'+value.rate+'</td>' +
                         '<td>'+value.spread+'</td><td>'+value.termToMatByDay+'</td><td>'+value.termToMatByYear+'</td>' +
                         '<td>'+value.zeroRate+'</td></tr>';
-
                     $('#taskBody').append(tBody);
                     document.getElementById("taskResult").style.display = "block";
                     document.getElementById("errorResult").style.display = "none"
-                })
+                    //console.log(tBody)
+                });
+                let resultData = JSON.parse(result.result);
+                var cells = (document.getElementById('taskResultTable').getElementsByTagName('tr'));
+                let tBody2 ='<td>'+resultData.pv+'</td><td>'+resultData.pv+'</td><td>'+resultData.pv+'</td>' +
+                    '<td>'+resultData.pv+'</td><td>'+resultData.pv+'</td><td>'+resultData.pv+'</td>' +
+                    '<td>'+resultData.pv+'</td><td>'+resultData.pv+'</td><td>'+resultData.pv+'</td>'
+                $(cells[1]).append(tBody2);
+
+
+
+
             }
 
         }).catch(error => {
+            document.getElementById("loadingIcon").style.display = "none";
             document.getElementById("taskResult").style.display = "none";
             document.getElementById("errorMessage").innerHTML = "";
             document.getElementById("errorResult").style.display = "block";
@@ -105,9 +117,11 @@ function isJSONObject(data, label) {
             taskData[label] = JSON.parse(data)
         }
     } catch (e) {
+        document.getElementById("loadingIcon").style.display = "none";
         document.getElementById("taskResult").style.display = "none";
-        document.getElementById("errorJsonMessage").innerHTML = label + " is not in json format";
-        document.getElementById("jsonFormatControl").style.display = "block";
+        document.getElementById("errorMessage").innerHTML = "";
+        document.getElementById("errorResult").style.display = "block";
+        document.getElementById("errorMessage").innerHTML = label + " is not json format";
         throw new Error(e);
     }
 
@@ -115,7 +129,7 @@ function isJSONObject(data, label) {
 
 function randomizeData(data){
     data.forEach((item, index) => {
-        item.value = Math.floor(Math.random() * (item.value+0.01 - item.value-0.01)) + item.value-0.01;
+        item.value = Math.floor((Math.random() * item.value+0.01) - item.value-0.01) *  0.0025;
         data[index] = item;
     });
 
