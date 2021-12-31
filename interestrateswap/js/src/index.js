@@ -129,7 +129,7 @@ function isJSONObject(data, label) {
 
 function randomizeData(data){
     data.forEach((item, index) => {
-        item.value = Math.floor(Math.random() * item.value+0.01) + item.value-0.01;
+        item.value = Math.floor((Math.random() * item.value+0.01) - item.value-0.01) *  0.0025;
         data[index] = item;
     });
 
