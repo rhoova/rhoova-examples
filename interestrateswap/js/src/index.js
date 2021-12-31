@@ -62,6 +62,7 @@ function createTaskResult() {
 
         client.createTask({data: taskData, calculationType: rhoova.CalculationType.IRS, waitResult: true}).then((result) => {
             document.getElementById("taskBody").innerHTML = "";
+            document.getElementById("taskPropertiesBody").innerHTML = "";
             document.getElementById("loadingIcon").style.display = "none";
             if(result.error){
                 document.getElementById("taskResult").style.display = "none";
@@ -79,19 +80,15 @@ function createTaskResult() {
                         '<td>'+value.zeroRate+'</td></tr>';
                     $('#taskBody').append(tBody);
                     document.getElementById("taskResult").style.display = "block";
+                    document.getElementById("taskPropertiesResult").style.display = "block";
                     document.getElementById("errorResult").style.display = "none"
-                    //console.log(tBody)
                 });
                 let resultData = JSON.parse(result.result);
-                var cells = (document.getElementById('taskResultTable').getElementsByTagName('tr'));
-                let tBody2 ='<td>'+resultData.pv+'</td><td>'+resultData.pv+'</td><td>'+resultData.pv+'</td>' +
+                var cells = (document.getElementById('taskPropertiesTable'));
+                let tPropertiesBody ='<td>'+resultData.pv+'</td><td>'+resultData.pv+'</td><td>'+resultData.pv+'</td>' +
                     '<td>'+resultData.pv+'</td><td>'+resultData.pv+'</td><td>'+resultData.pv+'</td>' +
                     '<td>'+resultData.pv+'</td><td>'+resultData.pv+'</td><td>'+resultData.pv+'</td>'
-                $(cells[1]).append(tBody2);
-
-
-
-
+                $('#taskPropertiesBody').append(tPropertiesBody);
             }
 
         }).catch(error => {
@@ -106,7 +103,6 @@ function createTaskResult() {
 }
 
 function isJSONObject(data, label) {
-
     try {
         JSON.parse(data);
         if (document.activeElement.id === "randomizeAndSubmitIrs" && label === "yieldData") {
