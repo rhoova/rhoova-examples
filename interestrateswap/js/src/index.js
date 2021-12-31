@@ -117,7 +117,7 @@ function isJSONObject(data, label) {
         document.getElementById("taskResult").style.display = "none";
         document.getElementById("errorMessage").innerHTML = "";
         document.getElementById("errorResult").style.display = "block";
-        document.getElementById("errorMessage").innerHTML = label + " is not json format";
+        document.getElementById("errorMessage").innerHTML = "Invalid "+ label + " object";
         throw new Error(e);
     }
 
