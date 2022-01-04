@@ -1,0 +1,36 @@
+{
+  "settlementDays": 2,
+  "endOfMonth": true,
+  "intpMethod": "LINEAR",
+  "currency": "USD",
+  "calendar": "Turkey",
+  "dayCounter": "Actual360",
+  "period": "3M",
+  "instruments": {
+    "DEPO": {
+      "businessDayConvention": "ModifiedFollowing",
+      "dayCounter": "Actual360"
+    },
+    "FUTURES": {
+      "businessDayConvention": "ModifiedFollowing",
+      "dayCounter": "Actual360",
+      "market": "IMM",
+      "usedates": true
+    },
+    "IRS": {
+      "businessDayConvention": "ModifiedFollowing",
+      "dayCounter": "Actual360",
+      "frequency": "Annual"
+    }
+  },
+  "applyShock": [
+    {
+      "tenor": "2Y",
+      "shockValue": 100
+    },
+    {
+      "tenor": "10Y",
+      "shockValue": 200
+    }
+  ]
+}
