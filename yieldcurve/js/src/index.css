@@ -76,6 +76,19 @@ body {
 
 }
 
+table tbody {
+    display: block;
+    max-height: 400px;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+table thead, table tbody tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    border: 1px solid #ccc;
+}
 .my-custom-scrollbar {
     position: relative;
     height: 200px;

@@ -73,7 +73,7 @@
                 <div class="row">
                     <div class="col-md-6 row">
                         <label for="apiKey" style="padding-left: 13px" class="col-form-label">API Key</label>
-                        <input type="text" style="width: 100%!important;" class="form-control " id="apiKey"
+                        <input type="text" style="width: 100%!important; margin-left: 8px" class="form-control " id="apiKey"
                                name="apiKey">
                     </div>
                     <div class="col-md-6 row">
@@ -219,47 +219,81 @@
         <span class="sr-only">Loading...</span>
     </div>
 </div>
-<div class="row" id="taskPropertiesResult" style="padding-right: 20px;padding-left: 20px;">
+<div class="row" id="taskPropertiesResult" style="display:none;padding-right: 20px;padding-left: 20px;">
     <div class="row">
-        <div class="col-lg-12">
+    <div class="col-lg-12">
             <h3 style="margin-top:20px; margin-left: 3px;">Calculation Result</h3>
         </div>
     </div>
-    <div class="table-wrapper-scroll-y my-custom-scrollbar" style="height: 100px!important; padding-left: 10px">
+    <div class="row" style="padding: 10px;">
+        <div style="width: 60%;">
+            <canvas id="line-chart" style="width:200%;max-width:600px"></canvas>
+        </div>
+    </div>
+    <div class="row" style="padding: 10px;">
+        <div style="width: 25%">
+            <h5>Zero Rates</h5>
+            <table id="zeroTable"
+                   class="table mb-0" style=" overflow: scroll">
+                <thead style="color: white">
+                <tr>
+                    <th data-field="zeroDate">Date</th>
+                    <th data-field="zeroRate">Rate</th>
+                </tr>
+                </thead>
+                <tbody id="zeroResultBody" style="color:white">
 
+                </tbody>
+            </table>
+        </div>
+        <div style="width: 25%">
+            <h5>Discount Rates</h5>
+            <table id="discountTable"
+                   class="table mb-0" style=" overflow: scroll">
+                <thead style="color: white">
+                <tr>
+                    <th data-field=discountDate">Date</th>
+                    <th data-field="discountRate">Rate</th>
+                </tr>
+                </thead>
+                <tbody id="discountResultBody" style="color:white">
+
+                </tbody>
+            </table>
+        </div>
+        <div style="width: 25%">
+            <h5>Forward Rates</h5>
+            <table id="forwardTable"
+                   class="table mb-0" style=" overflow: scroll">
+                <thead style="color: white">
+                <tr>
+                    <th data-field="forwardDate">Date</th>
+                    <th data-field="forwardRate">Rate</th>
+                </tr>
+                </thead>
+                <tbody id="forwardResultBody" style="color:white">
+
+                </tbody>
+            </table>
+        </div>
+        <div style="width: 25%">
+            <h5>Yield Node Data</h5>
+            <table id="yieldNodeData"
+                   class="table mb-0">
+                <thead style="color: white">
+                <tr>
+                    <th data-field="yieldNodeDataDate">Date</th>
+                    <th data-field="yieldNodeDataRate">Rate</th>
+                </tr>
+                </thead>
+                <tbody id="nodeDataResultBody" style="color:white">
+
+                </tbody>
+            </table>
+        </div>
     </div>
 </div>
-<div class="row" id="taskResult" style="display:none;padding-right: 20px;padding-left: 20px;">
-    <div class="table-wrapper-scroll-y my-custom-scrollbar" style="height: 500px!important; padding-left: 10px">
-        <table id="taskResultTable"
-               class="table mb-0" style=" overflow: scroll">
-            <thead style="color: white">
-            <tr>
-                <th data-field="accrualEnd">accrualEnd</th>
-                <th data-field="accrualStart">accrualStart</th>
-                <th data-field="cashflow">cashflow</th>
-                <th data-field="cashflowPv">cashflowPv</th>
-                <th data-field="currency">currency</th>
-                <th data-field="yieldCurve">yieldCurve</th>
-                <th data-field="fixingDate">fixingDate</th>
-                <th data-field="instrument">instrument</th>
-                <th data-field="leg">leg</th>
-                <th data-field="notional">notional</th>
-                <th data-field="payOrReceive">payOrReceive</th>
-                <th data-field="rate">rate</th>
-                <th data-field="spread">spread</th>
-                <th data-field="termToMatByDay">termToMatByDay</th>
-                <th data-field="termToMatByYear">termToMatByYear</th>
-                <th data-field="zeroRate">zeroRate</th>
-            </tr>
-            </thead>
-            <tbody id="taskBody" style="color:white">
 
-            </tbody>
-        </table>
-
-    </div>
-</div>
 
 
 <div class="row" id="errorResult" style="display:none;">
@@ -268,16 +302,11 @@
     </div>
 </div>
 <div>
-    <canvas id="bar-chart" style="width:100%;max-width:600px"></canvas>
+
 </div>
 
 <script>
 
-    var valuedata= [2478,5267,734,784,433];
-    var valuelabel=["Africa", "Asia", "Europe", "Latin America", "North America"];
-
-
-    myBarChart.update();
 </script>
 </body>
 

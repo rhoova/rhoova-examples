@@ -1,4 +1,3 @@
-
 [
   {
     "tenor": "3M",
@@ -2073,7 +2072,7 @@
   {
     "tenor": "",
     "maturityDate": "2018-12-12",
-    "value": 1.0,
+    "value": 1,
     "valuationDate": "2018-12-12",
     "currency": "USD",
     "instrument": "USDZero",
@@ -3023,7 +3022,7 @@
   {
     "tenor": "7Y",
     "maturityDate": "",
-    "value": 11.0,
+    "value": 11,
     "valuationDate": "2021-03-10",
     "currency": "USD",
     "instrument": "BSSWP",
@@ -3413,7 +3412,7 @@
   {
     "tenor": "10Y",
     "maturityDate": "",
-    "value": -14.0,
+    "value": -14,
     "valuationDate": "2021-03-10",
     "currency": "EURUSD",
     "instrument": "CCBS",
@@ -4273,7 +4272,7 @@
   {
     "tenor": "7Y",
     "maturityDate": "",
-    "value": 12.0,
+    "value": 12,
     "valuationDate": "2021-07-05",
     "currency": "USD",
     "instrument": "BSSWP",
@@ -4663,7 +4662,7 @@
   {
     "tenor": "1Y",
     "maturityDate": "",
-    "value": -7.0,
+    "value": -7,
     "valuationDate": "2021-07-05",
     "currency": "EURUSD",
     "instrument": "CCBS",
