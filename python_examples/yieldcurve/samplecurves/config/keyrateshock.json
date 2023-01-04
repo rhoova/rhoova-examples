@@ -1,0 +1,13 @@
+{
+  "method": "keyrate",
+  "shockValues" : [
+    {
+      "tenor" : "2Y",
+      "shockValue" : 100.0
+    },
+    {
+      "tenor" : "10Y",
+      "shockValue" : 200.0
+    }  
+  ]
+}

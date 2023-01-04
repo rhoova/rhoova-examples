@@ -1,0 +1,52 @@
+{
+	"USD-SA-3MLibor": {
+		"settlementDays": 2,
+		"intpMethod": "Linear",
+		"currency": "USD",
+		"calendar": "UnitedStates",
+		"dayCounter": "Actual360",
+		"period": "3M",
+		"instruments": {
+			"DEPO": {
+				"businessDayConvention": "ModifiedFollowing",
+				"dayCounter": "Actual360"
+			},
+			"FUTURES": {
+				"businessDayConvention": "ModifiedFollowing",
+				"dayCounter": "Actual360",
+				"market": "IMM",
+				"usedates": false
+			},
+			"IRS": {
+				"businessDayConvention": "ModifiedFollowing",
+				"dayCounter": "Actual360",
+				"frequency": "Semiannual"
+			}
+		}
+	},
+	"USD-SA-1MLibor": {
+		"settlementDays": 2,
+		"intpMethod": "Linear",
+		"currency": "USD",
+		"calendar": "UnitedStates",
+		"dayCounter": "Actual360",
+		"period": "1M",
+		"instruments": {
+			"DEPO": {
+				"businessDayConvention": "ModifiedFollowing",
+				"dayCounter": "Actual360"
+			},
+			"FUTURES": {
+				"businessDayConvention": "ModifiedFollowing",
+				"dayCounter": "Actual360",
+				"market": "IMM",
+				"usedates": false
+			},
+			"IRS": {
+				"businessDayConvention": "ModifiedFollowing",
+				"dayCounter": "Actual360",
+				"frequency": "Semiannual"
+			}
+		}
+	}
+}

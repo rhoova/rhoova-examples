@@ -1,0 +1,11 @@
+{"settlementDays": 2,
+ "intpMethod": "LINEAR",
+ "currency": "EUR",
+ "calendar": "TARGET",
+ "dayCounter": "Actual365Fixed",
+ "period": "1D",
+ "instruments": {"DEPO": {"businessDayConvention": "ModifiedFollowing",
+   "dayCounter": "Actual360"},
+  "OIS": {"businessDayConvention": "ModifiedFollowing",
+   "dayCounter": "Actual360",
+   "frequency": "Annual"}}}

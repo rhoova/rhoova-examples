@@ -1,0 +1,10 @@
+{"settlementDays": 2,
+ "intpMethod": "linear",
+ "currency": "USD",
+ "calendar": "UnitedStates",
+ "dayCounter": "Actual360",
+ "period": "1D",
+ "instruments": {"OIS": {"frequency": "Annual",
+   "businessDayConvention": "ModifiedFollowing"},
+  "DEPO": {"businessDayConvention": "ModifiedFollowing",
+   "dayCounter": "Actual360"}}}

@@ -1,0 +1,21 @@
+{
+  "method": "nonparallel",
+  "shockValues" : [
+    {
+      "tenor" : "2Y",
+      "shockValue" : 75.0
+    }, 
+    {
+      "tenor" : "10Y",
+      "shockValue" : 25.0
+    }, 
+    {
+      "tenor" : "25Y",
+      "shockValue" : 5.0
+    }, 
+    {
+      "tenor" : "50Y",
+      "shockValue" : 0.0
+    }  
+  ]
+}

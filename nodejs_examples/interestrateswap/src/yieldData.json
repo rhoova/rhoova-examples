@@ -1,0 +1,5192 @@
+[
+    {
+      "tenor": "3M",
+      "maturityDate": "",
+      "value": 0.001285,
+      "valuationDate": "2021-06-02",
+      "currency": "USD",
+      "instrument": "DEPO",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "6M",
+      "maturityDate": "2021-06-16",
+      "value": 99.87375,
+      "valuationDate": "2021-06-02",
+      "currency": "USD",
+      "instrument": "FUTURES",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "9M",
+      "maturityDate": "2021-09-15",
+      "value": 99.8775,
+      "valuationDate": "2021-06-02",
+      "currency": "USD",
+      "instrument": "FUTURES",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "12M",
+      "maturityDate": "2021-12-15",
+      "value": 99.8275,
+      "valuationDate": "2021-06-02",
+      "currency": "USD",
+      "instrument": "FUTURES",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "15M",
+      "maturityDate": "2022-03-16",
+      "value": 99.8425,
+      "valuationDate": "2021-06-02",
+      "currency": "USD",
+      "instrument": "FUTURES",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "18M",
+      "maturityDate": "2022-06-15",
+      "value": 99.8075,
+      "valuationDate": "2021-06-02",
+      "currency": "USD",
+      "instrument": "FUTURES",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "21M",
+      "maturityDate": "2022-09-21",
+      "value": 99.7375,
+      "valuationDate": "2021-06-02",
+      "currency": "USD",
+      "instrument": "FUTURES",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "2Y",
+      "maturityDate": "",
+      "value": 0.002277,
+      "valuationDate": "2021-06-02",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "3Y",
+      "maturityDate": "",
+      "value": 0.0042076,
+      "valuationDate": "2021-06-02",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "4Y",
+      "maturityDate": "",
+      "value": 0.006581,
+      "valuationDate": "2021-06-02",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "5Y",
+      "maturityDate": "",
+      "value": 0.008765,
+      "valuationDate": "2021-06-02",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "6Y",
+      "maturityDate": "",
+      "value": 0.010727,
+      "valuationDate": "2021-06-02",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "7Y",
+      "maturityDate": "",
+      "value": 0.0123845,
+      "valuationDate": "2021-06-02",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "8Y",
+      "maturityDate": "",
+      "value": 0.0136805,
+      "valuationDate": "2021-06-02",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "9Y",
+      "maturityDate": "",
+      "value": 0.014737,
+      "valuationDate": "2021-06-02",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "10Y",
+      "maturityDate": "",
+      "value": 0.0156275,
+      "valuationDate": "2021-06-02",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "11Y",
+      "maturityDate": "",
+      "value": 0.0163853,
+      "valuationDate": "2021-06-02",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "12Y",
+      "maturityDate": "",
+      "value": 0.0170415,
+      "valuationDate": "2021-06-02",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "15Y",
+      "maturityDate": "",
+      "value": 0.0183852,
+      "valuationDate": "2021-06-02",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "20Y",
+      "maturityDate": "",
+      "value": 0.0195015,
+      "valuationDate": "2021-06-02",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "25Y",
+      "maturityDate": "",
+      "value": 0.01989,
+      "valuationDate": "2021-06-02",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "30Y",
+      "maturityDate": "",
+      "value": 0.020005,
+      "valuationDate": "2021-06-02",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "40Y",
+      "maturityDate": "",
+      "value": 0.019378,
+      "valuationDate": "2021-06-02",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "50Y",
+      "maturityDate": "",
+      "value": 0.0185225,
+      "valuationDate": "2021-06-02",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "1W",
+      "maturityDate": "2021-03-17",
+      "value": 0.16739,
+      "valuationDate": "2021-03-17",
+      "currency": "TRY",
+      "instrument": "DEPO",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "2W",
+      "maturityDate": "2021-03-17",
+      "value": 0.16911,
+      "valuationDate": "2021-03-17",
+      "currency": "TRY",
+      "instrument": "DEPO",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "3W",
+      "maturityDate": "2021-03-17",
+      "value": 0.17037,
+      "valuationDate": "2021-03-17",
+      "currency": "TRY",
+      "instrument": "DEPO",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "1M",
+      "maturityDate": "2021-03-17",
+      "value": 0.17249,
+      "valuationDate": "2021-03-17",
+      "currency": "TRY",
+      "instrument": "DEPO",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "2M",
+      "maturityDate": "2021-03-17",
+      "value": 0.17452,
+      "valuationDate": "2021-03-17",
+      "currency": "TRY",
+      "instrument": "DEPO",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "3M",
+      "maturityDate": "2021-03-17",
+      "value": 0.17623,
+      "valuationDate": "2021-03-17",
+      "currency": "TRY",
+      "instrument": "DEPO",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "4M",
+      "maturityDate": "2021-03-17",
+      "value": 0.17827,
+      "valuationDate": "2021-03-17",
+      "currency": "TRY",
+      "instrument": "DEPO",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "5M",
+      "maturityDate": "2021-03-17",
+      "value": 0.17993,
+      "valuationDate": "2021-03-17",
+      "currency": "TRY",
+      "instrument": "DEPO",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "6M",
+      "maturityDate": "2021-03-17",
+      "value": 0.18156,
+      "valuationDate": "2021-03-17",
+      "currency": "TRY",
+      "instrument": "DEPO",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "9M",
+      "maturityDate": "2021-03-17",
+      "value": 0.18365,
+      "valuationDate": "2021-03-17",
+      "currency": "TRY",
+      "instrument": "DEPO",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "1Y",
+      "maturityDate": "2021-03-17",
+      "value": 0.18358,
+      "valuationDate": "2021-03-17",
+      "currency": "TRY",
+      "instrument": "DEPO",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "18M",
+      "maturityDate": "2021-03-17",
+      "value": 0.18282,
+      "valuationDate": "2021-03-17",
+      "currency": "TRY",
+      "instrument": "DEPO",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "2Y",
+      "maturityDate": "2021-03-17",
+      "value": 0.18236,
+      "valuationDate": "2021-03-17",
+      "currency": "TRY",
+      "instrument": "DEPO",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "3Y",
+      "maturityDate": "2021-03-17",
+      "value": 0.18512,
+      "valuationDate": "2021-03-17",
+      "currency": "TRY",
+      "instrument": "DEPO",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "4Y",
+      "maturityDate": "2021-03-17",
+      "value": 0.19181,
+      "valuationDate": "2021-03-17",
+      "currency": "TRY",
+      "instrument": "DEPO",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "5Y",
+      "maturityDate": "2021-03-17",
+      "value": 0.20105,
+      "valuationDate": "2021-03-17",
+      "currency": "TRY",
+      "instrument": "DEPO",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "6Y",
+      "maturityDate": "2021-03-17",
+      "value": 0.18946,
+      "valuationDate": "2021-03-17",
+      "currency": "TRY",
+      "instrument": "DEPO",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "7Y",
+      "maturityDate": "2021-03-17",
+      "value": 0.19504,
+      "valuationDate": "2021-03-17",
+      "currency": "TRY",
+      "instrument": "DEPO",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "10Y",
+      "maturityDate": "2021-03-17",
+      "value": 0.21428,
+      "valuationDate": "2021-03-17",
+      "currency": "TRY",
+      "instrument": "DEPO",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "1W",
+      "maturityDate": "2021-03-17",
+      "value": 0.00017,
+      "valuationDate": "2021-03-17",
+      "currency": "USD",
+      "instrument": "DEPO",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "2W",
+      "maturityDate": "2021-03-17",
+      "value": 0.00018,
+      "valuationDate": "2021-03-17",
+      "currency": "USD",
+      "instrument": "DEPO",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "3W",
+      "maturityDate": "2021-03-17",
+      "value": 0.00018,
+      "valuationDate": "2021-03-17",
+      "currency": "USD",
+      "instrument": "DEPO",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "1M",
+      "maturityDate": "2021-03-17",
+      "value": 0.00021,
+      "valuationDate": "2021-03-17",
+      "currency": "USD",
+      "instrument": "DEPO",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "2M",
+      "maturityDate": "2021-03-17",
+      "value": 0.00023,
+      "valuationDate": "2021-03-17",
+      "currency": "USD",
+      "instrument": "DEPO",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "3M",
+      "maturityDate": "2021-03-17",
+      "value": 0.00028,
+      "valuationDate": "2021-03-17",
+      "currency": "USD",
+      "instrument": "DEPO",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "4M",
+      "maturityDate": "2021-03-17",
+      "value": 0.00031,
+      "valuationDate": "2021-03-17",
+      "currency": "USD",
+      "instrument": "DEPO",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "5M",
+      "maturityDate": "2021-03-17",
+      "value": 0.00033,
+      "valuationDate": "2021-03-17",
+      "currency": "USD",
+      "instrument": "DEPO",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "6M",
+      "maturityDate": "2021-03-17",
+      "value": 0.00035,
+      "valuationDate": "2021-03-17",
+      "currency": "USD",
+      "instrument": "DEPO",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "9M",
+      "maturityDate": "2021-03-17",
+      "value": 0.00043,
+      "valuationDate": "2021-03-17",
+      "currency": "USD",
+      "instrument": "DEPO",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "1Y",
+      "maturityDate": "2021-03-17",
+      "value": 0.00049,
+      "valuationDate": "2021-03-17",
+      "currency": "USD",
+      "instrument": "DEPO",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "18M",
+      "maturityDate": "2021-03-17",
+      "value": 0.00062,
+      "valuationDate": "2021-03-17",
+      "currency": "USD",
+      "instrument": "DEPO",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "2Y",
+      "maturityDate": "2021-03-17",
+      "value": 0.00091,
+      "valuationDate": "2021-03-17",
+      "currency": "USD",
+      "instrument": "DEPO",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "3Y",
+      "maturityDate": "2021-03-17",
+      "value": 0.00236,
+      "valuationDate": "2021-03-17",
+      "currency": "USD",
+      "instrument": "DEPO",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "4Y",
+      "maturityDate": "2021-03-17",
+      "value": 0.0046,
+      "valuationDate": "2021-03-17",
+      "currency": "USD",
+      "instrument": "DEPO",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "5Y",
+      "maturityDate": "2021-03-17",
+      "value": 0.00686,
+      "valuationDate": "2021-03-17",
+      "currency": "USD",
+      "instrument": "DEPO",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "6Y",
+      "maturityDate": "2021-03-17",
+      "value": 0.00903,
+      "valuationDate": "2021-03-17",
+      "currency": "USD",
+      "instrument": "DEPO",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "7Y",
+      "maturityDate": "2021-03-17",
+      "value": 0.01098,
+      "valuationDate": "2021-03-17",
+      "currency": "USD",
+      "instrument": "DEPO",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "10Y",
+      "maturityDate": "2021-03-17",
+      "value": 0.01524,
+      "valuationDate": "2021-03-17",
+      "currency": "USD",
+      "instrument": "DEPO",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "3M",
+      "maturityDate": "2021-03-17",
+      "value": 99.8175,
+      "valuationDate": "2021-03-10",
+      "currency": "USD",
+      "instrument": "FUTURES",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "9M",
+      "maturityDate": "2021-09-15",
+      "value": 99.835,
+      "valuationDate": "2021-03-10",
+      "currency": "USD",
+      "instrument": "FUTURES",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "12M",
+      "maturityDate": "2021-12-15",
+      "value": 99.815,
+      "valuationDate": "2021-03-10",
+      "currency": "USD",
+      "instrument": "FUTURES",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "15M",
+      "maturityDate": "2022-03-16",
+      "value": 99.76,
+      "valuationDate": "2021-03-10",
+      "currency": "USD",
+      "instrument": "FUTURES",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "18M",
+      "maturityDate": "2022-06-15",
+      "value": 99.79,
+      "valuationDate": "2021-03-10",
+      "currency": "USD",
+      "instrument": "FUTURES",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "21M",
+      "maturityDate": "2022-09-21",
+      "value": 99.75,
+      "valuationDate": "2021-03-10",
+      "currency": "USD",
+      "instrument": "FUTURES",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "2Y",
+      "maturityDate": "",
+      "value": 0.002444,
+      "valuationDate": "2021-03-10",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "3Y",
+      "maturityDate": "",
+      "value": 0.004151,
+      "valuationDate": "2021-03-10",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "4Y",
+      "maturityDate": "",
+      "value": 0.006509,
+      "valuationDate": "2021-03-10",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "5Y",
+      "maturityDate": "",
+      "value": 0.008682,
+      "valuationDate": "2021-03-10",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "6Y",
+      "maturityDate": "",
+      "value": 0.01056,
+      "valuationDate": "2021-03-10",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "7Y",
+      "maturityDate": "",
+      "value": 0.0121325,
+      "valuationDate": "2021-03-10",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "8Y",
+      "maturityDate": "",
+      "value": 0.013385,
+      "valuationDate": "2021-03-10",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "9Y",
+      "maturityDate": "",
+      "value": 0.0144105,
+      "valuationDate": "2021-03-10",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "10Y",
+      "maturityDate": "",
+      "value": 0.0152625,
+      "valuationDate": "2021-03-10",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "11Y",
+      "maturityDate": "",
+      "value": 0.015991,
+      "valuationDate": "2021-03-10",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "12Y",
+      "maturityDate": "",
+      "value": 0.016597,
+      "valuationDate": "2021-03-10",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "15Y",
+      "maturityDate": "",
+      "value": 0.01782,
+      "valuationDate": "2021-03-10",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "20Y",
+      "maturityDate": "",
+      "value": 0.0187702,
+      "valuationDate": "2021-03-10",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "25Y",
+      "maturityDate": "",
+      "value": 0.019115,
+      "valuationDate": "2021-03-10",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "30Y",
+      "maturityDate": "",
+      "value": 0.01925,
+      "valuationDate": "2021-03-10",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "40Y",
+      "maturityDate": "",
+      "value": 0.0187495,
+      "valuationDate": "2021-03-10",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "50Y",
+      "maturityDate": "",
+      "value": 0.0179775,
+      "valuationDate": "2021-03-10",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "1D",
+      "maturityDate": "",
+      "value": -0.00477,
+      "valuationDate": "2021-03-10",
+      "currency": "EUR",
+      "instrument": "DEPO",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "1W",
+      "maturityDate": "",
+      "value": -0.0048,
+      "valuationDate": "2021-03-10",
+      "currency": "EUR",
+      "instrument": "OIS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "2W",
+      "maturityDate": "",
+      "value": -0.004825,
+      "valuationDate": "2021-03-10",
+      "currency": "EUR",
+      "instrument": "OIS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "1M",
+      "maturityDate": "",
+      "value": -0.004825,
+      "valuationDate": "2021-03-10",
+      "currency": "EUR",
+      "instrument": "OIS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "2M",
+      "maturityDate": "",
+      "value": -0.00484,
+      "valuationDate": "2021-03-10",
+      "currency": "EUR",
+      "instrument": "OIS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "3M",
+      "maturityDate": "",
+      "value": -0.00484,
+      "valuationDate": "2021-03-10",
+      "currency": "EUR",
+      "instrument": "OIS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "4M",
+      "maturityDate": "",
+      "value": -0.004855,
+      "valuationDate": "2021-03-10",
+      "currency": "EUR",
+      "instrument": "OIS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "5M",
+      "maturityDate": "",
+      "value": -0.004865,
+      "valuationDate": "2021-03-10",
+      "currency": "EUR",
+      "instrument": "OIS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "6M",
+      "maturityDate": "",
+      "value": -0.004875,
+      "valuationDate": "2021-03-10",
+      "currency": "EUR",
+      "instrument": "OIS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "7M",
+      "maturityDate": "",
+      "value": -0.0048815,
+      "valuationDate": "2021-03-10",
+      "currency": "EUR",
+      "instrument": "OIS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "8M",
+      "maturityDate": "",
+      "value": -0.00488,
+      "valuationDate": "2021-03-10",
+      "currency": "EUR",
+      "instrument": "OIS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "9M",
+      "maturityDate": "",
+      "value": -0.00488,
+      "valuationDate": "2021-03-10",
+      "currency": "EUR",
+      "instrument": "OIS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "10M",
+      "maturityDate": "",
+      "value": -0.0048925,
+      "valuationDate": "2021-03-10",
+      "currency": "EUR",
+      "instrument": "OIS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "11M",
+      "maturityDate": "",
+      "value": -0.00489,
+      "valuationDate": "2021-03-10",
+      "currency": "EUR",
+      "instrument": "OIS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "12M",
+      "maturityDate": "",
+      "value": -0.00489,
+      "valuationDate": "2021-03-10",
+      "currency": "EUR",
+      "instrument": "OIS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "18M",
+      "maturityDate": "",
+      "value": -0.0049,
+      "valuationDate": "2021-03-10",
+      "currency": "EUR",
+      "instrument": "OIS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "2Y",
+      "maturityDate": "",
+      "value": -0.0049,
+      "valuationDate": "2021-03-10",
+      "currency": "EUR",
+      "instrument": "OIS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "30M",
+      "maturityDate": "",
+      "value": -0.004755,
+      "valuationDate": "2021-03-10",
+      "currency": "EUR",
+      "instrument": "OIS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "3Y",
+      "maturityDate": "",
+      "value": -0.00464,
+      "valuationDate": "2021-03-10",
+      "currency": "EUR",
+      "instrument": "OIS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "4Y",
+      "maturityDate": "",
+      "value": -0.00422,
+      "valuationDate": "2021-03-10",
+      "currency": "EUR",
+      "instrument": "OIS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "5Y",
+      "maturityDate": "",
+      "value": -0.00369,
+      "valuationDate": "2021-03-10",
+      "currency": "EUR",
+      "instrument": "OIS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "6Y",
+      "maturityDate": "",
+      "value": -0.00309,
+      "valuationDate": "2021-03-10",
+      "currency": "EUR",
+      "instrument": "OIS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "7Y",
+      "maturityDate": "",
+      "value": -0.00241,
+      "valuationDate": "2021-03-10",
+      "currency": "EUR",
+      "instrument": "OIS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "8Y",
+      "maturityDate": "",
+      "value": -0.00181,
+      "valuationDate": "2021-03-10",
+      "currency": "EUR",
+      "instrument": "OIS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "9Y",
+      "maturityDate": "",
+      "value": -0.00114,
+      "valuationDate": "2021-03-10",
+      "currency": "EUR",
+      "instrument": "OIS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "10Y",
+      "maturityDate": "",
+      "value": -0.00053,
+      "valuationDate": "2021-03-10",
+      "currency": "EUR",
+      "instrument": "OIS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "11Y",
+      "maturityDate": "",
+      "value": 0.00009,
+      "valuationDate": "2021-03-10",
+      "currency": "EUR",
+      "instrument": "OIS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "12Y",
+      "maturityDate": "",
+      "value": 0.00068,
+      "valuationDate": "2021-03-10",
+      "currency": "EUR",
+      "instrument": "OIS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "15Y",
+      "maturityDate": "",
+      "value": 0.00201,
+      "valuationDate": "2021-03-10",
+      "currency": "EUR",
+      "instrument": "OIS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "20Y",
+      "maturityDate": "",
+      "value": 0.003166,
+      "valuationDate": "2021-03-10",
+      "currency": "EUR",
+      "instrument": "OIS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "25Y",
+      "maturityDate": "",
+      "value": 0.003462,
+      "valuationDate": "2021-03-10",
+      "currency": "EUR",
+      "instrument": "OIS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "30Y",
+      "maturityDate": "",
+      "value": 0.003367,
+      "valuationDate": "2021-03-10",
+      "currency": "EUR",
+      "instrument": "OIS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "35Y",
+      "maturityDate": "",
+      "value": 0.0032895,
+      "valuationDate": "2021-03-10",
+      "currency": "EUR",
+      "instrument": "OIS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "40Y",
+      "maturityDate": "",
+      "value": 0.0031365,
+      "valuationDate": "2021-03-10",
+      "currency": "EUR",
+      "instrument": "OIS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "50Y",
+      "maturityDate": "",
+      "value": 0.002865,
+      "valuationDate": "2021-03-10",
+      "currency": "EUR",
+      "instrument": "OIS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "6M",
+      "maturityDate": "2021-06-16",
+      "value": 99.87875,
+      "valuationDate": "2021-06-08",
+      "currency": "USD",
+      "instrument": "FUTURES",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "9M",
+      "maturityDate": "2021-09-15",
+      "value": 99.8825,
+      "valuationDate": "2021-06-08",
+      "currency": "USD",
+      "instrument": "FUTURES",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "12M",
+      "maturityDate": "2021-12-15",
+      "value": 99.8275,
+      "valuationDate": "2021-06-08",
+      "currency": "USD",
+      "instrument": "FUTURES",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "15M",
+      "maturityDate": "2022-03-16",
+      "value": 99.8425,
+      "valuationDate": "2021-06-08",
+      "currency": "USD",
+      "instrument": "FUTURES",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "18M",
+      "maturityDate": "2022-06-15",
+      "value": 99.8075,
+      "valuationDate": "2021-06-08",
+      "currency": "USD",
+      "instrument": "FUTURES",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "21M",
+      "maturityDate": "2022-09-21",
+      "value": 99.7475,
+      "valuationDate": "2021-06-08",
+      "currency": "USD",
+      "instrument": "FUTURES",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "2Y",
+      "maturityDate": "",
+      "value": 0.0022287,
+      "valuationDate": "2021-06-08",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "3Y",
+      "maturityDate": "",
+      "value": 0.0041264,
+      "valuationDate": "2021-06-08",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "4Y",
+      "maturityDate": "",
+      "value": 0.0063665,
+      "valuationDate": "2021-06-08",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "5Y",
+      "maturityDate": "",
+      "value": 0.00844,
+      "valuationDate": "2021-06-08",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "6Y",
+      "maturityDate": "",
+      "value": 0.0103252,
+      "valuationDate": "2021-06-08",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "7Y",
+      "maturityDate": "",
+      "value": 0.0119223,
+      "valuationDate": "2021-06-08",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "8Y",
+      "maturityDate": "",
+      "value": 0.013185,
+      "valuationDate": "2021-06-08",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "9Y",
+      "maturityDate": "",
+      "value": 0.014212,
+      "valuationDate": "2021-06-08",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "10Y",
+      "maturityDate": "",
+      "value": 0.0150834,
+      "valuationDate": "2021-06-08",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "11Y",
+      "maturityDate": "",
+      "value": 0.0158179,
+      "valuationDate": "2021-06-08",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "12Y",
+      "maturityDate": "",
+      "value": 0.0164375,
+      "valuationDate": "2021-06-08",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "15Y",
+      "maturityDate": "",
+      "value": 0.017737,
+      "valuationDate": "2021-06-08",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "20Y",
+      "maturityDate": "",
+      "value": 0.0188137,
+      "valuationDate": "2021-06-08",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "25Y",
+      "maturityDate": "",
+      "value": 0.0191653,
+      "valuationDate": "2021-06-08",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "30Y",
+      "maturityDate": "",
+      "value": 0.019253,
+      "valuationDate": "2021-06-08",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "40Y",
+      "maturityDate": "",
+      "value": 0.018623,
+      "valuationDate": "2021-06-08",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "50Y",
+      "maturityDate": "",
+      "value": 0.0177625,
+      "valuationDate": "2021-06-08",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "",
+      "maturityDate": "2010-11-25",
+      "value": 0.030495,
+      "valuationDate": "2008-03-05",
+      "currency": "GBP",
+      "instrument": "ZCISwap",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "",
+      "maturityDate": "2011-11-25",
+      "value": 0.0293,
+      "valuationDate": "2008-03-05",
+      "currency": "GBP",
+      "instrument": "ZCISwap",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "",
+      "maturityDate": "2012-11-25",
+      "value": 0.029795,
+      "valuationDate": "2008-03-05",
+      "currency": "GBP",
+      "instrument": "ZCISwap",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "",
+      "maturityDate": "2013-11-25",
+      "value": 0.03029,
+      "valuationDate": "2008-03-05",
+      "currency": "GBP",
+      "instrument": "ZCISwap",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "",
+      "maturityDate": "2014-11-25",
+      "value": 0.031425,
+      "valuationDate": "2008-03-05",
+      "currency": "GBP",
+      "instrument": "ZCISwap",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "",
+      "maturityDate": "2015-11-25",
+      "value": 0.03211,
+      "valuationDate": "2008-03-05",
+      "currency": "GBP",
+      "instrument": "ZCISwap",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "",
+      "maturityDate": "2016-11-25",
+      "value": 0.032675,
+      "valuationDate": "2008-03-05",
+      "currency": "GBP",
+      "instrument": "ZCISwap",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "",
+      "maturityDate": "2017-11-25",
+      "value": 0.033625,
+      "valuationDate": "2008-03-05",
+      "currency": "GBP",
+      "instrument": "ZCISwap",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "",
+      "maturityDate": "2018-11-25",
+      "value": 0.03405,
+      "valuationDate": "2008-03-05",
+      "currency": "GBP",
+      "instrument": "ZCISwap",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "",
+      "maturityDate": "2019-11-25",
+      "value": 0.0348,
+      "valuationDate": "2008-03-05",
+      "currency": "GBP",
+      "instrument": "ZCISwap",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "",
+      "maturityDate": "2021-11-25",
+      "value": 0.03576,
+      "valuationDate": "2008-03-05",
+      "currency": "GBP",
+      "instrument": "ZCISwap",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "",
+      "maturityDate": "2024-11-25",
+      "value": 0.03649,
+      "valuationDate": "2008-03-05",
+      "currency": "GBP",
+      "instrument": "ZCISwap",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "",
+      "maturityDate": "2039-11-25",
+      "value": 0.03751,
+      "valuationDate": "2008-03-05",
+      "currency": "GBP",
+      "instrument": "ZCISwap",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "",
+      "maturityDate": "2049-11-25",
+      "value": 0.0377225,
+      "valuationDate": "2008-03-05",
+      "currency": "GBP",
+      "instrument": "ZCISwap",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "",
+      "maturityDate": "2059-11-25",
+      "value": 0.0377,
+      "valuationDate": "2008-03-05",
+      "currency": "GBP",
+      "instrument": "ZCISwap",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "1Y",
+      "maturityDate": "",
+      "value": 0.03606,
+      "valuationDate": "2021-06-08",
+      "currency": "USD",
+      "instrument": "ZCISwap",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "2Y",
+      "maturityDate": "",
+      "value": 0.03025,
+      "valuationDate": "2021-06-08",
+      "currency": "USD",
+      "instrument": "ZCISwap",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "3Y",
+      "maturityDate": "",
+      "value": 0.02797,
+      "valuationDate": "2021-06-08",
+      "currency": "USD",
+      "instrument": "ZCISwap",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "4Y",
+      "maturityDate": "",
+      "value": 0.0268875,
+      "valuationDate": "2021-06-08",
+      "currency": "USD",
+      "instrument": "ZCISwap",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "5Y",
+      "maturityDate": "",
+      "value": 0.02621,
+      "valuationDate": "2021-06-08",
+      "currency": "USD",
+      "instrument": "ZCISwap",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "6Y",
+      "maturityDate": "",
+      "value": 0.02582,
+      "valuationDate": "2021-06-08",
+      "currency": "USD",
+      "instrument": "ZCISwap",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "7Y",
+      "maturityDate": "",
+      "value": 0.02563,
+      "valuationDate": "2021-06-08",
+      "currency": "USD",
+      "instrument": "ZCISwap",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "8Y",
+      "maturityDate": "",
+      "value": 0.02545,
+      "valuationDate": "2021-06-08",
+      "currency": "USD",
+      "instrument": "ZCISwap",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "9Y",
+      "maturityDate": "",
+      "value": 0.0253,
+      "valuationDate": "2021-06-08",
+      "currency": "USD",
+      "instrument": "ZCISwap",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "10Y",
+      "maturityDate": "",
+      "value": 0.025085,
+      "valuationDate": "2021-06-08",
+      "currency": "USD",
+      "instrument": "ZCISwap",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "12Y",
+      "maturityDate": "",
+      "value": 0.025125,
+      "valuationDate": "2021-06-08",
+      "currency": "USD",
+      "instrument": "ZCISwap",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "15Y",
+      "maturityDate": "",
+      "value": 0.02495,
+      "valuationDate": "2021-06-08",
+      "currency": "USD",
+      "instrument": "ZCISwap",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "20Y",
+      "maturityDate": "",
+      "value": 0.0248,
+      "valuationDate": "2021-06-08",
+      "currency": "USD",
+      "instrument": "ZCISwap",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "25Y",
+      "maturityDate": "",
+      "value": 0.0247,
+      "valuationDate": "2021-06-08",
+      "currency": "USD",
+      "instrument": "ZCISwap",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "30Y",
+      "maturityDate": "",
+      "value": 0.02462,
+      "valuationDate": "2021-06-08",
+      "currency": "USD",
+      "instrument": "ZCISwap",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "1Y",
+      "maturityDate": "",
+      "value": 0.03606,
+      "valuationDate": "2021-06-08",
+      "currency": "USD",
+      "instrument": "YoYSwap",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "2Y",
+      "maturityDate": "",
+      "value": 0.0303228,
+      "valuationDate": "2021-06-08",
+      "currency": "USD",
+      "instrument": "YoYSwap",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "3Y",
+      "maturityDate": "",
+      "value": 0.0281494,
+      "valuationDate": "2021-06-08",
+      "currency": "USD",
+      "instrument": "YoYSwap",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "4Y",
+      "maturityDate": "",
+      "value": 0.027045,
+      "valuationDate": "2021-06-08",
+      "currency": "USD",
+      "instrument": "YoYSwap",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "5Y",
+      "maturityDate": "",
+      "value": 0.0263579,
+      "valuationDate": "2021-06-08",
+      "currency": "USD",
+      "instrument": "YoYSwap",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "6Y",
+      "maturityDate": "",
+      "value": 0.0259529,
+      "valuationDate": "2021-06-08",
+      "currency": "USD",
+      "instrument": "YoYSwap",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "7Y",
+      "maturityDate": "",
+      "value": 0.0257476,
+      "valuationDate": "2021-06-08",
+      "currency": "USD",
+      "instrument": "YoYSwap",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "8Y",
+      "maturityDate": "",
+      "value": 0.0256051,
+      "valuationDate": "2021-06-08",
+      "currency": "USD",
+      "instrument": "YoYSwap",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "9Y",
+      "maturityDate": "",
+      "value": 0.0254902,
+      "valuationDate": "2021-06-08",
+      "currency": "USD",
+      "instrument": "YoYSwap",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "10Y",
+      "maturityDate": "",
+      "value": 0.0253157,
+      "valuationDate": "2021-06-08",
+      "currency": "USD",
+      "instrument": "YoYSwap",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "12Y",
+      "maturityDate": "",
+      "value": 0.0252319,
+      "valuationDate": "2021-06-08",
+      "currency": "USD",
+      "instrument": "YoYSwap",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "15Y",
+      "maturityDate": "",
+      "value": 0.0251037,
+      "valuationDate": "2021-06-08",
+      "currency": "USD",
+      "instrument": "YoYSwap",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "20Y",
+      "maturityDate": "",
+      "value": 0.0250243,
+      "valuationDate": "2021-06-08",
+      "currency": "USD",
+      "instrument": "YoYSwap",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "25Y",
+      "maturityDate": "",
+      "value": 0.0249606,
+      "valuationDate": "2021-06-08",
+      "currency": "USD",
+      "instrument": "YoYSwap",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "30Y",
+      "maturityDate": "",
+      "value": 0.0249174,
+      "valuationDate": "2021-06-08",
+      "currency": "USD",
+      "instrument": "YoYSwap",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "1D",
+      "maturityDate": "",
+      "value": 0.192858,
+      "valuationDate": "2021-06-18",
+      "currency": "TRY",
+      "instrument": "OIS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "1W",
+      "maturityDate": "",
+      "value": 0.19,
+      "valuationDate": "2021-06-18",
+      "currency": "TRY",
+      "instrument": "OIS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "2W",
+      "maturityDate": "",
+      "value": 0.1905,
+      "valuationDate": "2021-06-18",
+      "currency": "TRY",
+      "instrument": "OIS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "1M",
+      "maturityDate": "",
+      "value": 0.1903,
+      "valuationDate": "2021-06-18",
+      "currency": "TRY",
+      "instrument": "OIS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "2M",
+      "maturityDate": "",
+      "value": 0.1888,
+      "valuationDate": "2021-06-18",
+      "currency": "TRY",
+      "instrument": "OIS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "3M",
+      "maturityDate": "",
+      "value": 0.1894,
+      "valuationDate": "2021-06-18",
+      "currency": "TRY",
+      "instrument": "OIS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "6M",
+      "maturityDate": "",
+      "value": 0.1870001,
+      "valuationDate": "2021-06-18",
+      "currency": "TRY",
+      "instrument": "OIS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "9M",
+      "maturityDate": "",
+      "value": 0.1845,
+      "valuationDate": "2021-06-18",
+      "currency": "TRY",
+      "instrument": "OIS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "1Y",
+      "maturityDate": "",
+      "value": 0.1832,
+      "valuationDate": "2021-06-18",
+      "currency": "TRY",
+      "instrument": "OIS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "18M",
+      "maturityDate": "",
+      "value": 0.18202,
+      "valuationDate": "2021-06-18",
+      "currency": "TRY",
+      "instrument": "OIS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "2Y",
+      "maturityDate": "",
+      "value": 0.1816,
+      "valuationDate": "2021-06-18",
+      "currency": "TRY",
+      "instrument": "OIS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "3Y",
+      "maturityDate": "",
+      "value": 0.1801,
+      "valuationDate": "2021-06-18",
+      "currency": "TRY",
+      "instrument": "OIS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "4Y",
+      "maturityDate": "",
+      "value": 0.1787,
+      "valuationDate": "2021-06-18",
+      "currency": "TRY",
+      "instrument": "OIS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "5Y",
+      "maturityDate": "",
+      "value": 0.1775,
+      "valuationDate": "2021-06-18",
+      "currency": "TRY",
+      "instrument": "OIS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "6Y",
+      "maturityDate": "",
+      "value": 0.1764,
+      "valuationDate": "2021-06-18",
+      "currency": "TRY",
+      "instrument": "OIS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "7Y",
+      "maturityDate": "",
+      "value": 0.1754,
+      "valuationDate": "2021-06-18",
+      "currency": "TRY",
+      "instrument": "OIS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "8Y",
+      "maturityDate": "",
+      "value": 0.1745,
+      "valuationDate": "2021-06-18",
+      "currency": "TRY",
+      "instrument": "OIS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "9Y",
+      "maturityDate": "",
+      "value": 0.1736,
+      "valuationDate": "2021-06-18",
+      "currency": "TRY",
+      "instrument": "OIS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "10Y",
+      "maturityDate": "",
+      "value": 0.1727999,
+      "valuationDate": "2021-06-18",
+      "currency": "TRY",
+      "instrument": "OIS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "",
+      "maturityDate": "2018-12-12",
+      "value": 1.0,
+      "valuationDate": "2018-12-12",
+      "currency": "USD",
+      "instrument": "USDZero",
+      "settlementDate": "",
+      "period": "1D"
+    },
+    {
+      "tenor": "",
+      "maturityDate": "2018-12-13",
+      "value": 0.999758,
+      "valuationDate": "2018-12-12",
+      "currency": "USD",
+      "instrument": "USDZero",
+      "settlementDate": "",
+      "period": "1D"
+    },
+    {
+      "tenor": "",
+      "maturityDate": "2018-12-19",
+      "value": 0.99957,
+      "valuationDate": "2018-12-12",
+      "currency": "USD",
+      "instrument": "USDZero",
+      "settlementDate": "",
+      "period": "1D"
+    },
+    {
+      "tenor": "",
+      "maturityDate": "2019-01-12",
+      "value": 0.99792,
+      "valuationDate": "2018-12-12",
+      "currency": "USD",
+      "instrument": "USDZero",
+      "settlementDate": "",
+      "period": "1D"
+    },
+    {
+      "tenor": "",
+      "maturityDate": "2019-02-12",
+      "value": 0.995597,
+      "valuationDate": "2018-12-12",
+      "currency": "USD",
+      "instrument": "USDZero",
+      "settlementDate": "",
+      "period": "1D"
+    },
+    {
+      "tenor": "",
+      "maturityDate": "2019-03-12",
+      "value": 0.993108,
+      "valuationDate": "2018-12-12",
+      "currency": "USD",
+      "instrument": "USDZero",
+      "settlementDate": "",
+      "period": "1D"
+    },
+    {
+      "tenor": "",
+      "maturityDate": "2019-06-12",
+      "value": 0.985659,
+      "valuationDate": "2018-12-12",
+      "currency": "USD",
+      "instrument": "USDZero",
+      "settlementDate": "",
+      "period": "1D"
+    },
+    {
+      "tenor": "",
+      "maturityDate": "2019-12-12",
+      "value": 0.969519,
+      "valuationDate": "2018-12-12",
+      "currency": "USD",
+      "instrument": "USDZero",
+      "settlementDate": "",
+      "period": "1D"
+    },
+    {
+      "tenor": "",
+      "maturityDate": "2020-12-12",
+      "value": 0.94423,
+      "valuationDate": "2018-12-12",
+      "currency": "USD",
+      "instrument": "USDZero",
+      "settlementDate": "",
+      "period": "1D"
+    },
+    {
+      "tenor": "",
+      "maturityDate": "2021-12-12",
+      "value": 0.918219,
+      "valuationDate": "2018-12-12",
+      "currency": "USD",
+      "instrument": "USDZero",
+      "settlementDate": "",
+      "period": "1D"
+    },
+    {
+      "tenor": "",
+      "maturityDate": "2022-12-12",
+      "value": 0.892931,
+      "valuationDate": "2018-12-12",
+      "currency": "USD",
+      "instrument": "USDZero",
+      "settlementDate": "",
+      "period": "1D"
+    },
+    {
+      "tenor": "",
+      "maturityDate": "2023-12-12",
+      "value": 0.86814,
+      "valuationDate": "2018-12-12",
+      "currency": "USD",
+      "instrument": "USDZero",
+      "settlementDate": "",
+      "period": "1D"
+    },
+    {
+      "tenor": "",
+      "maturityDate": "2024-12-12",
+      "value": 0.843459,
+      "valuationDate": "2018-12-12",
+      "currency": "USD",
+      "instrument": "USDZero",
+      "settlementDate": "",
+      "period": "1D"
+    },
+    {
+      "tenor": "",
+      "maturityDate": "2025-12-12",
+      "value": 0.819195,
+      "valuationDate": "2018-12-12",
+      "currency": "USD",
+      "instrument": "USDZero",
+      "settlementDate": "",
+      "period": "1D"
+    },
+    {
+      "tenor": "",
+      "maturityDate": "2026-12-12",
+      "value": 0.794985,
+      "valuationDate": "2018-12-12",
+      "currency": "USD",
+      "instrument": "USDZero",
+      "settlementDate": "",
+      "period": "1D"
+    },
+    {
+      "tenor": "",
+      "maturityDate": "2027-12-12",
+      "value": 0.770981,
+      "valuationDate": "2018-12-12",
+      "currency": "USD",
+      "instrument": "USDZero",
+      "settlementDate": "",
+      "period": "1D"
+    },
+    {
+      "tenor": "",
+      "maturityDate": "2028-12-12",
+      "value": 0.747243,
+      "valuationDate": "2018-12-12",
+      "currency": "USD",
+      "instrument": "USDZero",
+      "settlementDate": "",
+      "period": "1D"
+    },
+    {
+      "tenor": "",
+      "maturityDate": "2029-12-12",
+      "value": 0.724021,
+      "valuationDate": "2018-12-12",
+      "currency": "USD",
+      "instrument": "USDZero",
+      "settlementDate": "",
+      "period": "1D"
+    },
+    {
+      "tenor": "",
+      "maturityDate": "2030-12-12",
+      "value": 0.701601,
+      "valuationDate": "2018-12-12",
+      "currency": "USD",
+      "instrument": "USDZero",
+      "settlementDate": "",
+      "period": "1D"
+    },
+    {
+      "tenor": "",
+      "maturityDate": "2033-12-12",
+      "value": 0.639109,
+      "valuationDate": "2018-12-12",
+      "currency": "USD",
+      "instrument": "USDZero",
+      "settlementDate": "",
+      "period": "1D"
+    },
+    {
+      "tenor": "",
+      "maturityDate": "2038-12-12",
+      "value": 0.548016,
+      "valuationDate": "2018-12-12",
+      "currency": "USD",
+      "instrument": "USDZero",
+      "settlementDate": "",
+      "period": "1D"
+    },
+    {
+      "tenor": "",
+      "maturityDate": "2043-12-12",
+      "value": 0.472681,
+      "valuationDate": "2018-12-12",
+      "currency": "USD",
+      "instrument": "USDZero",
+      "settlementDate": "",
+      "period": "1D"
+    },
+    {
+      "tenor": "",
+      "maturityDate": "2048-12-12",
+      "value": 0.408786,
+      "valuationDate": "2018-12-12",
+      "currency": "USD",
+      "instrument": "USDZero",
+      "settlementDate": "",
+      "period": "1D"
+    },
+    {
+      "tenor": "",
+      "maturityDate": "2058-12-12",
+      "value": 0.310937,
+      "valuationDate": "2018-12-12",
+      "currency": "USD",
+      "instrument": "USDZero",
+      "settlementDate": "",
+      "period": "1D"
+    },
+    {
+      "tenor": "",
+      "maturityDate": "2068-12-12",
+      "value": 0.239833,
+      "valuationDate": "2018-12-12",
+      "currency": "USD",
+      "instrument": "USDZero",
+      "settlementDate": "",
+      "period": "1D"
+    },
+    {
+      "tenor": "6M",
+      "maturityDate": "2021-03-05",
+      "value": 169.02,
+      "valuationDate": "2021-03-05",
+      "currency": "USD",
+      "instrument": "CDS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "1Y",
+      "maturityDate": "2021-03-05",
+      "value": 228.38,
+      "valuationDate": "2021-03-05",
+      "currency": "USD",
+      "instrument": "CDS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "2Y",
+      "maturityDate": "2021-03-05",
+      "value": 279.96,
+      "valuationDate": "2021-03-05",
+      "currency": "USD",
+      "instrument": "CDS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "3Y",
+      "maturityDate": "2021-03-05",
+      "value": 303.21,
+      "valuationDate": "2021-03-05",
+      "currency": "USD",
+      "instrument": "CDS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "4Y",
+      "maturityDate": "2021-03-05",
+      "value": 320.24,
+      "valuationDate": "2021-03-05",
+      "currency": "USD",
+      "instrument": "CDS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "5Y",
+      "maturityDate": "2021-03-05",
+      "value": 334.893,
+      "valuationDate": "2021-03-05",
+      "currency": "USD",
+      "instrument": "CDS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "7Y",
+      "maturityDate": "2021-03-05",
+      "value": 372.46,
+      "valuationDate": "2021-03-05",
+      "currency": "USD",
+      "instrument": "CDS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "10Y",
+      "maturityDate": "2021-03-05",
+      "value": 384.77,
+      "valuationDate": "2021-03-05",
+      "currency": "USD",
+      "instrument": "CDS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "1D",
+      "maturityDate": "",
+      "value": 0.0007,
+      "valuationDate": "2021-03-10",
+      "currency": "USD",
+      "instrument": "DEPO",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "1W",
+      "maturityDate": "",
+      "value": 0.0007,
+      "valuationDate": "2021-03-10",
+      "currency": "USD",
+      "instrument": "OIS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "2W",
+      "maturityDate": "",
+      "value": 0.00068,
+      "valuationDate": "2021-03-10",
+      "currency": "USD",
+      "instrument": "OIS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "3W",
+      "maturityDate": "",
+      "value": 0.00068,
+      "valuationDate": "2021-03-10",
+      "currency": "USD",
+      "instrument": "OIS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "1M",
+      "maturityDate": "",
+      "value": 0.00067,
+      "valuationDate": "2021-03-10",
+      "currency": "USD",
+      "instrument": "OIS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "2M",
+      "maturityDate": "",
+      "value": 0.000705,
+      "valuationDate": "2021-03-10",
+      "currency": "USD",
+      "instrument": "OIS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "3M",
+      "maturityDate": "",
+      "value": 0.00074,
+      "valuationDate": "2021-03-10",
+      "currency": "USD",
+      "instrument": "OIS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "4M",
+      "maturityDate": "",
+      "value": 0.00076,
+      "valuationDate": "2021-03-10",
+      "currency": "USD",
+      "instrument": "OIS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "5M",
+      "maturityDate": "",
+      "value": 0.00077,
+      "valuationDate": "2021-03-10",
+      "currency": "USD",
+      "instrument": "OIS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "6M",
+      "maturityDate": "",
+      "value": 0.0007845,
+      "valuationDate": "2021-03-10",
+      "currency": "USD",
+      "instrument": "OIS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "9M",
+      "maturityDate": "",
+      "value": 0.00081,
+      "valuationDate": "2021-03-10",
+      "currency": "USD",
+      "instrument": "OIS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "12M",
+      "maturityDate": "",
+      "value": 0.0008326,
+      "valuationDate": "2021-03-10",
+      "currency": "USD",
+      "instrument": "OIS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "18M",
+      "maturityDate": "",
+      "value": 0.00094,
+      "valuationDate": "2021-03-10",
+      "currency": "USD",
+      "instrument": "OIS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "2Y",
+      "maturityDate": "",
+      "value": 0.00122,
+      "valuationDate": "2021-03-10",
+      "currency": "USD",
+      "instrument": "OIS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "3Y",
+      "maturityDate": "",
+      "value": 0.00268,
+      "valuationDate": "2021-03-10",
+      "currency": "USD",
+      "instrument": "OIS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "4Y",
+      "maturityDate": "",
+      "value": 0.00478,
+      "valuationDate": "2021-03-10",
+      "currency": "USD",
+      "instrument": "OIS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "5Y",
+      "maturityDate": "",
+      "value": 0.00679,
+      "valuationDate": "2021-03-10",
+      "currency": "USD",
+      "instrument": "OIS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "10Y",
+      "maturityDate": "",
+      "value": 0.01318,
+      "valuationDate": "2021-03-10",
+      "currency": "USD",
+      "instrument": "OIS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "12Y",
+      "maturityDate": "",
+      "value": 0.014518308,
+      "valuationDate": "2021-03-10",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "15Y",
+      "maturityDate": "",
+      "value": 0.015696022,
+      "valuationDate": "2021-03-10",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "20Y",
+      "maturityDate": "",
+      "value": 0.016644051,
+      "valuationDate": "2021-03-10",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "25Y",
+      "maturityDate": "",
+      "value": 0.016988217,
+      "valuationDate": "2021-03-10",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "30Y",
+      "maturityDate": "",
+      "value": 0.017122996,
+      "valuationDate": "2021-03-10",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "40Y",
+      "maturityDate": "",
+      "value": 0.016622501,
+      "valuationDate": "2021-03-10",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "50Y",
+      "maturityDate": "",
+      "value": 0.015850501,
+      "valuationDate": "2021-03-10",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "6M",
+      "maturityDate": "",
+      "value": -0.0052,
+      "valuationDate": "2021-03-10",
+      "currency": "EUR",
+      "instrument": "DEPO",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "1X7",
+      "maturityDate": "",
+      "value": -0.00499,
+      "valuationDate": "2021-03-10",
+      "currency": "EUR",
+      "instrument": "FRA",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "2X8",
+      "maturityDate": "",
+      "value": -0.00503,
+      "valuationDate": "2021-03-10",
+      "currency": "EUR",
+      "instrument": "FRA",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "3X9",
+      "maturityDate": "",
+      "value": -0.00496,
+      "valuationDate": "2021-03-10",
+      "currency": "EUR",
+      "instrument": "FRA",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "4X10",
+      "maturityDate": "",
+      "value": -0.00489,
+      "valuationDate": "2021-03-10",
+      "currency": "EUR",
+      "instrument": "FRA",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "5X11",
+      "maturityDate": "",
+      "value": -0.00488,
+      "valuationDate": "2021-03-10",
+      "currency": "EUR",
+      "instrument": "FRA",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "6X12",
+      "maturityDate": "",
+      "value": -0.00483,
+      "valuationDate": "2021-03-10",
+      "currency": "EUR",
+      "instrument": "FRA",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "7X13",
+      "maturityDate": "",
+      "value": -0.00481,
+      "valuationDate": "2021-03-10",
+      "currency": "EUR",
+      "instrument": "FRA",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "8X14",
+      "maturityDate": "",
+      "value": -0.0048,
+      "valuationDate": "2021-03-10",
+      "currency": "EUR",
+      "instrument": "FRA",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "9X15",
+      "maturityDate": "",
+      "value": -0.0048,
+      "valuationDate": "2021-03-10",
+      "currency": "EUR",
+      "instrument": "FRA",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "10X16",
+      "maturityDate": "",
+      "value": -0.00474,
+      "valuationDate": "2021-03-10",
+      "currency": "EUR",
+      "instrument": "FRA",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "11X17",
+      "maturityDate": "",
+      "value": -0.0047,
+      "valuationDate": "2021-03-10",
+      "currency": "EUR",
+      "instrument": "FRA",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "12X18",
+      "maturityDate": "",
+      "value": -0.0047,
+      "valuationDate": "2021-03-10",
+      "currency": "EUR",
+      "instrument": "FRA",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "2Y",
+      "maturityDate": "",
+      "value": -0.00484,
+      "valuationDate": "2021-03-10",
+      "currency": "EUR",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "3Y",
+      "maturityDate": "",
+      "value": -0.00445,
+      "valuationDate": "2021-03-10",
+      "currency": "EUR",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "4Y",
+      "maturityDate": "",
+      "value": -0.00388,
+      "valuationDate": "2021-03-10",
+      "currency": "EUR",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "5Y",
+      "maturityDate": "",
+      "value": -0.00324,
+      "valuationDate": "2021-03-10",
+      "currency": "EUR",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "6Y",
+      "maturityDate": "",
+      "value": -0.00258,
+      "valuationDate": "2021-03-10",
+      "currency": "EUR",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "7Y",
+      "maturityDate": "",
+      "value": -0.00189,
+      "valuationDate": "2021-03-10",
+      "currency": "EUR",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "8Y",
+      "maturityDate": "",
+      "value": -0.00118,
+      "valuationDate": "2021-03-10",
+      "currency": "EUR",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "9Y",
+      "maturityDate": "",
+      "value": -0.00055,
+      "valuationDate": "2021-03-10",
+      "currency": "EUR",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "10Y",
+      "maturityDate": "",
+      "value": 0.0000755,
+      "valuationDate": "2021-03-10",
+      "currency": "EUR",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "11Y",
+      "maturityDate": "",
+      "value": 0.00066,
+      "valuationDate": "2021-03-10",
+      "currency": "EUR",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "12Y",
+      "maturityDate": "",
+      "value": 0.0012375,
+      "valuationDate": "2021-03-10",
+      "currency": "EUR",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "15Y",
+      "maturityDate": "",
+      "value": 0.0025075,
+      "valuationDate": "2021-03-10",
+      "currency": "EUR",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "20Y",
+      "maturityDate": "",
+      "value": 0.0035975,
+      "valuationDate": "2021-03-10",
+      "currency": "EUR",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "25Y",
+      "maturityDate": "",
+      "value": 0.00382,
+      "valuationDate": "2021-03-10",
+      "currency": "EUR",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "30Y",
+      "maturityDate": "",
+      "value": 0.0036875,
+      "valuationDate": "2021-03-10",
+      "currency": "EUR",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "40Y",
+      "maturityDate": "",
+      "value": 0.00333,
+      "valuationDate": "2021-03-10",
+      "currency": "EUR",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "50Y",
+      "maturityDate": "",
+      "value": 0.0029725,
+      "valuationDate": "2021-03-10",
+      "currency": "EUR",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "6M",
+      "maturityDate": "",
+      "value": 0.0019363,
+      "valuationDate": "2021-03-10",
+      "currency": "USD",
+      "instrument": "DEPO",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "1Y",
+      "maturityDate": "",
+      "value": 2.252999961,
+      "valuationDate": "2021-03-10",
+      "currency": "USD",
+      "instrument": "BSSWP",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "18M",
+      "maturityDate": "",
+      "value": 2.424999535,
+      "valuationDate": "2021-03-10",
+      "currency": "USD",
+      "instrument": "BSSWP",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "2Y",
+      "maturityDate": "",
+      "value": 2.4375,
+      "valuationDate": "2021-03-10",
+      "currency": "USD",
+      "instrument": "BSSWP",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "3Y",
+      "maturityDate": "",
+      "value": 4.629999876,
+      "valuationDate": "2021-03-10",
+      "currency": "USD",
+      "instrument": "BSSWP",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "4Y",
+      "maturityDate": "",
+      "value": 7.4375,
+      "valuationDate": "2021-03-10",
+      "currency": "USD",
+      "instrument": "BSSWP",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "5Y",
+      "maturityDate": "",
+      "value": 9.075000763,
+      "valuationDate": "2021-03-10",
+      "currency": "USD",
+      "instrument": "BSSWP",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "7Y",
+      "maturityDate": "",
+      "value": 11.0,
+      "valuationDate": "2021-03-10",
+      "currency": "USD",
+      "instrument": "BSSWP",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "10Y",
+      "maturityDate": "",
+      "value": 12.4375,
+      "valuationDate": "2021-03-10",
+      "currency": "USD",
+      "instrument": "BSSWP",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "12Y",
+      "maturityDate": "",
+      "value": 12.9375,
+      "valuationDate": "2021-03-10",
+      "currency": "USD",
+      "instrument": "BSSWP",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "15Y",
+      "maturityDate": "",
+      "value": 13.5625,
+      "valuationDate": "2021-03-10",
+      "currency": "USD",
+      "instrument": "BSSWP",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "20Y",
+      "maturityDate": "",
+      "value": 14.06299973,
+      "valuationDate": "2021-03-10",
+      "currency": "USD",
+      "instrument": "BSSWP",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "25Y",
+      "maturityDate": "",
+      "value": 14.43999958,
+      "valuationDate": "2021-03-10",
+      "currency": "USD",
+      "instrument": "BSSWP",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "30Y",
+      "maturityDate": "",
+      "value": 14.8125,
+      "valuationDate": "2021-03-10",
+      "currency": "USD",
+      "instrument": "BSSWP",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "3M",
+      "maturityDate": "",
+      "value": 0.00096,
+      "valuationDate": "2021-03-10",
+      "currency": "USD",
+      "instrument": "DEPO",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "6M",
+      "maturityDate": "",
+      "value": 0.00096,
+      "valuationDate": "2021-03-10",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "9M",
+      "maturityDate": "",
+      "value": 0.00115,
+      "valuationDate": "2021-03-10",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "1Y",
+      "maturityDate": "",
+      "value": 0.00126,
+      "valuationDate": "2021-03-10",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "2Y",
+      "maturityDate": "",
+      "value": 0.00263,
+      "valuationDate": "2021-03-10",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "3Y",
+      "maturityDate": "",
+      "value": 0.00507,
+      "valuationDate": "2021-03-10",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "4Y",
+      "maturityDate": "",
+      "value": 0.00717,
+      "valuationDate": "2021-03-10",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "5Y",
+      "maturityDate": "",
+      "value": 0.00876,
+      "valuationDate": "2021-03-10",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "6Y",
+      "maturityDate": "",
+      "value": 0.01015,
+      "valuationDate": "2021-03-10",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "7Y",
+      "maturityDate": "",
+      "value": 0.01117,
+      "valuationDate": "2021-03-10",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "8Y",
+      "maturityDate": "",
+      "value": 0.01205,
+      "valuationDate": "2021-03-10",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "9Y",
+      "maturityDate": "",
+      "value": 0.01276,
+      "valuationDate": "2021-03-10",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "10Y",
+      "maturityDate": "",
+      "value": 0.01337,
+      "valuationDate": "2021-03-10",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "12Y",
+      "maturityDate": "",
+      "value": 0.01436,
+      "valuationDate": "2021-03-10",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "15Y",
+      "maturityDate": "",
+      "value": 0.01562,
+      "valuationDate": "2021-03-10",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "20Y",
+      "maturityDate": "",
+      "value": 0.01621,
+      "valuationDate": "2021-03-10",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "25Y",
+      "maturityDate": "",
+      "value": 0.01646,
+      "valuationDate": "2021-03-10",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "30Y",
+      "maturityDate": "",
+      "value": 0.01657,
+      "valuationDate": "2021-03-10",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "40Y",
+      "maturityDate": "",
+      "value": 0.01587,
+      "valuationDate": "2021-03-10",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "50Y",
+      "maturityDate": "",
+      "value": 0.01513,
+      "valuationDate": "2021-03-10",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "3M",
+      "maturityDate": "",
+      "value": -5.470499992,
+      "valuationDate": "2021-03-10",
+      "currency": "EURUSD",
+      "instrument": "CCBS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "6M",
+      "maturityDate": "",
+      "value": -6.252650023,
+      "valuationDate": "2021-03-10",
+      "currency": "EURUSD",
+      "instrument": "CCBS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "9M",
+      "maturityDate": "",
+      "value": -6.505699873,
+      "valuationDate": "2021-03-10",
+      "currency": "EURUSD",
+      "instrument": "CCBS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "1Y",
+      "maturityDate": "",
+      "value": -8.874999523,
+      "valuationDate": "2021-03-10",
+      "currency": "EURUSD",
+      "instrument": "CCBS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "2Y",
+      "maturityDate": "",
+      "value": -9.5,
+      "valuationDate": "2021-03-10",
+      "currency": "EURUSD",
+      "instrument": "CCBS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "3Y",
+      "maturityDate": "",
+      "value": -9.125002146,
+      "valuationDate": "2021-03-10",
+      "currency": "EURUSD",
+      "instrument": "CCBS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "4Y",
+      "maturityDate": "",
+      "value": -9.124997854,
+      "valuationDate": "2021-03-10",
+      "currency": "EURUSD",
+      "instrument": "CCBS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "5Y",
+      "maturityDate": "",
+      "value": -9.750000477,
+      "valuationDate": "2021-03-10",
+      "currency": "EURUSD",
+      "instrument": "CCBS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "6Y",
+      "maturityDate": "",
+      "value": -10.87499905,
+      "valuationDate": "2021-03-10",
+      "currency": "EURUSD",
+      "instrument": "CCBS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "7Y",
+      "maturityDate": "",
+      "value": -11.87499762,
+      "valuationDate": "2021-03-10",
+      "currency": "EURUSD",
+      "instrument": "CCBS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "8Y",
+      "maturityDate": "",
+      "value": -12.875,
+      "valuationDate": "2021-03-10",
+      "currency": "EURUSD",
+      "instrument": "CCBS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "9Y",
+      "maturityDate": "",
+      "value": -13.5,
+      "valuationDate": "2021-03-10",
+      "currency": "EURUSD",
+      "instrument": "CCBS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "10Y",
+      "maturityDate": "",
+      "value": -14.0,
+      "valuationDate": "2021-03-10",
+      "currency": "EURUSD",
+      "instrument": "CCBS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "12Y",
+      "maturityDate": "",
+      "value": -14.99999952,
+      "valuationDate": "2021-03-10",
+      "currency": "EURUSD",
+      "instrument": "CCBS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "15Y",
+      "maturityDate": "",
+      "value": -15.875,
+      "valuationDate": "2021-03-10",
+      "currency": "EURUSD",
+      "instrument": "CCBS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "20Y",
+      "maturityDate": "",
+      "value": -16.49999952,
+      "valuationDate": "2021-03-10",
+      "currency": "EURUSD",
+      "instrument": "CCBS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "30Y",
+      "maturityDate": "",
+      "value": -13.75,
+      "valuationDate": "2021-03-10",
+      "currency": "EURUSD",
+      "instrument": "CCBS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "3M",
+      "maturityDate": "2021-06-16",
+      "value": -0.54001,
+      "valuationDate": "2021-03-10",
+      "currency": "EUR",
+      "instrument": "FUTURES",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "4M",
+      "maturityDate": "2021-07-21",
+      "value": 100.5401,
+      "valuationDate": "2021-03-10",
+      "currency": "EUR",
+      "instrument": "FUTURES",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "5M",
+      "maturityDate": "2021-08-18",
+      "value": 100.5401,
+      "valuationDate": "2021-03-10",
+      "currency": "EUR",
+      "instrument": "FUTURES",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "6M",
+      "maturityDate": "2021-09-15",
+      "value": 100.5352,
+      "valuationDate": "2021-03-10",
+      "currency": "EUR",
+      "instrument": "FUTURES",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "7M",
+      "maturityDate": "2021-10-20",
+      "value": 100.5302,
+      "valuationDate": "2021-03-10",
+      "currency": "EUR",
+      "instrument": "FUTURES",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "8M",
+      "maturityDate": "2021-11-17",
+      "value": 100.5303,
+      "valuationDate": "2021-03-10",
+      "currency": "EUR",
+      "instrument": "FUTURES",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "9M",
+      "maturityDate": "2021-12-15",
+      "value": 100.5254,
+      "valuationDate": "2021-03-10",
+      "currency": "EUR",
+      "instrument": "FUTURES",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "12M",
+      "maturityDate": "2022-03-16",
+      "value": 100.5258,
+      "valuationDate": "2021-03-10",
+      "currency": "EUR",
+      "instrument": "FUTURES",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "15M",
+      "maturityDate": "2022-06-15",
+      "value": 100.5112,
+      "valuationDate": "2021-03-10",
+      "currency": "EUR",
+      "instrument": "FUTURES",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "18M",
+      "maturityDate": "2022-09-21",
+      "value": 100.5068,
+      "valuationDate": "2021-03-10",
+      "currency": "EUR",
+      "instrument": "FUTURES",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "21M",
+      "maturityDate": "2022-12-21",
+      "value": 100.5024,
+      "valuationDate": "2021-03-10",
+      "currency": "EUR",
+      "instrument": "FUTURES",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "3Y",
+      "maturityDate": "2023-03-15",
+      "value": 100.483,
+      "valuationDate": "2021-03-10",
+      "currency": "EUR",
+      "instrument": "FUTURES",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "3Y",
+      "maturityDate": "",
+      "value": -0.00489,
+      "valuationDate": "2021-03-10",
+      "currency": "EUR",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "4Y",
+      "maturityDate": "",
+      "value": -0.004385,
+      "valuationDate": "2021-03-10",
+      "currency": "EUR",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "5Y",
+      "maturityDate": "",
+      "value": -0.00379,
+      "valuationDate": "2021-03-10",
+      "currency": "EUR",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "6Y",
+      "maturityDate": "",
+      "value": -0.00309,
+      "valuationDate": "2021-03-10",
+      "currency": "EUR",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "7Y",
+      "maturityDate": "",
+      "value": -0.0023825,
+      "valuationDate": "2021-03-10",
+      "currency": "EUR",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "8Y",
+      "maturityDate": "",
+      "value": -0.00169,
+      "valuationDate": "2021-03-10",
+      "currency": "EUR",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "9Y",
+      "maturityDate": "",
+      "value": -0.001015,
+      "valuationDate": "2021-03-10",
+      "currency": "EUR",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "10Y",
+      "maturityDate": "",
+      "value": -0.000385,
+      "valuationDate": "2021-03-10",
+      "currency": "EUR",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "11Y",
+      "maturityDate": "",
+      "value": 0.00023,
+      "valuationDate": "2021-03-10",
+      "currency": "EUR",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "12Y",
+      "maturityDate": "",
+      "value": 0.00081,
+      "valuationDate": "2021-03-10",
+      "currency": "EUR",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "15Y",
+      "maturityDate": "",
+      "value": 0.002185,
+      "valuationDate": "2021-03-10",
+      "currency": "EUR",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "20Y",
+      "maturityDate": "",
+      "value": 0.00338,
+      "valuationDate": "2021-03-10",
+      "currency": "EUR",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "25Y",
+      "maturityDate": "",
+      "value": 0.00368,
+      "valuationDate": "2021-03-10",
+      "currency": "EUR",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "30Y",
+      "maturityDate": "",
+      "value": 0.003607,
+      "valuationDate": "2021-03-10",
+      "currency": "EUR",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "40Y",
+      "maturityDate": "",
+      "value": 0.003356,
+      "valuationDate": "2021-03-10",
+      "currency": "EUR",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "50Y",
+      "maturityDate": "",
+      "value": 0.003034,
+      "valuationDate": "2021-03-10",
+      "currency": "EUR",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "3M",
+      "maturityDate": "",
+      "value": 0.00096171,
+      "valuationDate": "2021-07-05",
+      "currency": "USD",
+      "instrument": "DEPO",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "6M",
+      "maturityDate": "",
+      "value": 0.000950779,
+      "valuationDate": "2021-07-05",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "9M",
+      "maturityDate": "",
+      "value": 0.001150084,
+      "valuationDate": "2021-07-05",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "1Y",
+      "maturityDate": "",
+      "value": 0.001280408,
+      "valuationDate": "2021-07-05",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "2Y",
+      "maturityDate": "",
+      "value": 0.00265508,
+      "valuationDate": "2021-07-05",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "3Y",
+      "maturityDate": "",
+      "value": 0.005066351,
+      "valuationDate": "2021-07-05",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "4Y",
+      "maturityDate": "",
+      "value": 0.00719525,
+      "valuationDate": "2021-07-05",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "5Y",
+      "maturityDate": "",
+      "value": 0.008756355,
+      "valuationDate": "2021-07-05",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "6Y",
+      "maturityDate": "",
+      "value": 0.010153997,
+      "valuationDate": "2021-07-05",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "7Y",
+      "maturityDate": "",
+      "value": 0.011172271,
+      "valuationDate": "2021-07-05",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "8Y",
+      "maturityDate": "",
+      "value": 0.012099424,
+      "valuationDate": "2021-07-05",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "9Y",
+      "maturityDate": "",
+      "value": 0.012802988,
+      "valuationDate": "2021-07-05",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "10Y",
+      "maturityDate": "",
+      "value": 0.013365462,
+      "valuationDate": "2021-07-05",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "12Y",
+      "maturityDate": "",
+      "value": 0.014356348,
+      "valuationDate": "2021-07-05",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "15Y",
+      "maturityDate": "",
+      "value": 0.015403311,
+      "valuationDate": "2021-07-05",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "20Y",
+      "maturityDate": "",
+      "value": 0.016193119,
+      "valuationDate": "2021-07-05",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "25Y",
+      "maturityDate": "",
+      "value": 0.016472327,
+      "valuationDate": "2021-07-05",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "30Y",
+      "maturityDate": "",
+      "value": 0.016595979,
+      "valuationDate": "2021-07-05",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "40Y",
+      "maturityDate": "",
+      "value": 0.015895453,
+      "valuationDate": "2021-07-05",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "50Y",
+      "maturityDate": "",
+      "value": 0.015014787,
+      "valuationDate": "2021-07-05",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "1D",
+      "maturityDate": "",
+      "value": 0.001,
+      "valuationDate": "2021-07-05",
+      "currency": "USD",
+      "instrument": "DEPO",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "1W",
+      "maturityDate": "",
+      "value": 0.000960002,
+      "valuationDate": "2021-07-05",
+      "currency": "USD",
+      "instrument": "OIS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "2W",
+      "maturityDate": "",
+      "value": 0.000960002,
+      "valuationDate": "2021-07-05",
+      "currency": "USD",
+      "instrument": "OIS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "3W",
+      "maturityDate": "",
+      "value": 0.001,
+      "valuationDate": "2021-07-05",
+      "currency": "USD",
+      "instrument": "OIS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "1M",
+      "maturityDate": "",
+      "value": 0.000947997,
+      "valuationDate": "2021-07-05",
+      "currency": "USD",
+      "instrument": "OIS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "2M",
+      "maturityDate": "",
+      "value": 0.000940002,
+      "valuationDate": "2021-07-05",
+      "currency": "USD",
+      "instrument": "OIS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "3M",
+      "maturityDate": "",
+      "value": 0.000931,
+      "valuationDate": "2021-07-05",
+      "currency": "USD",
+      "instrument": "OIS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "4M",
+      "maturityDate": "",
+      "value": 0.000934,
+      "valuationDate": "2021-07-05",
+      "currency": "USD",
+      "instrument": "OIS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "5M",
+      "maturityDate": "",
+      "value": 0.000929,
+      "valuationDate": "2021-07-05",
+      "currency": "USD",
+      "instrument": "OIS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "6M",
+      "maturityDate": "",
+      "value": 0.00093,
+      "valuationDate": "2021-07-05",
+      "currency": "USD",
+      "instrument": "OIS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "9M",
+      "maturityDate": "",
+      "value": 0.0009495,
+      "valuationDate": "2021-07-05",
+      "currency": "USD",
+      "instrument": "OIS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "12M",
+      "maturityDate": "",
+      "value": 0.00103,
+      "valuationDate": "2021-07-05",
+      "currency": "USD",
+      "instrument": "OIS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "18M",
+      "maturityDate": "",
+      "value": 0.00147,
+      "valuationDate": "2021-07-05",
+      "currency": "USD",
+      "instrument": "OIS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "2Y",
+      "maturityDate": "",
+      "value": 0.002184,
+      "valuationDate": "2021-07-05",
+      "currency": "USD",
+      "instrument": "OIS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "3Y",
+      "maturityDate": "",
+      "value": 0.0041,
+      "valuationDate": "2021-07-05",
+      "currency": "USD",
+      "instrument": "OIS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "4Y",
+      "maturityDate": "",
+      "value": 0.00613,
+      "valuationDate": "2021-07-05",
+      "currency": "USD",
+      "instrument": "OIS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "5Y",
+      "maturityDate": "",
+      "value": 0.007508,
+      "valuationDate": "2021-07-05",
+      "currency": "USD",
+      "instrument": "OIS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "7Y",
+      "maturityDate": "",
+      "value": 0.009868821,
+      "valuationDate": "2021-07-05",
+      "currency": "USD",
+      "instrument": "OIS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "10Y",
+      "maturityDate": "",
+      "value": 0.011992665,
+      "valuationDate": "2021-07-05",
+      "currency": "USD",
+      "instrument": "OIS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "12Y",
+      "maturityDate": "",
+      "value": 0.012963843,
+      "valuationDate": "2021-07-05",
+      "currency": "USD",
+      "instrument": "OIS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "15Y",
+      "maturityDate": "",
+      "value": 0.013879857,
+      "valuationDate": "2021-07-05",
+      "currency": "USD",
+      "instrument": "OIS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "20Y",
+      "maturityDate": "",
+      "value": 0.014874313,
+      "valuationDate": "2021-07-05",
+      "currency": "USD",
+      "instrument": "OIS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "25Y",
+      "maturityDate": "",
+      "value": 0.015065974,
+      "valuationDate": "2021-07-05",
+      "currency": "USD",
+      "instrument": "OIS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "30Y",
+      "maturityDate": "",
+      "value": 0.015145729,
+      "valuationDate": "2021-07-05",
+      "currency": "USD",
+      "instrument": "OIS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "40Y",
+      "maturityDate": "",
+      "value": 0.014495729,
+      "valuationDate": "2021-07-05",
+      "currency": "USD",
+      "instrument": "OIS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "50Y",
+      "maturityDate": "",
+      "value": 0.013610179,
+      "valuationDate": "2021-07-05",
+      "currency": "USD",
+      "instrument": "OIS",
+      "settlementDate": "2D",
+      "period": "1D"
+    },
+    {
+      "tenor": "6M",
+      "maturityDate": "",
+      "value": 0.001625,
+      "valuationDate": "2021-07-05",
+      "currency": "USD",
+      "instrument": "DEPO",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "1Y",
+      "maturityDate": "",
+      "value": 2.75,
+      "valuationDate": "2021-07-05",
+      "currency": "USD",
+      "instrument": "BSSWP",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "18M",
+      "maturityDate": "",
+      "value": 2.75,
+      "valuationDate": "2021-07-05",
+      "currency": "USD",
+      "instrument": "BSSWP",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "2Y",
+      "maturityDate": "",
+      "value": 3.125,
+      "valuationDate": "2021-07-05",
+      "currency": "USD",
+      "instrument": "BSSWP",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "3Y",
+      "maturityDate": "",
+      "value": 7.363999844,
+      "valuationDate": "2021-07-05",
+      "currency": "USD",
+      "instrument": "BSSWP",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "4Y",
+      "maturityDate": "",
+      "value": 9.374999047,
+      "valuationDate": "2021-07-05",
+      "currency": "USD",
+      "instrument": "BSSWP",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "5Y",
+      "maturityDate": "",
+      "value": 10.62500191,
+      "valuationDate": "2021-07-05",
+      "currency": "USD",
+      "instrument": "BSSWP",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "7Y",
+      "maturityDate": "",
+      "value": 12.0,
+      "valuationDate": "2021-07-05",
+      "currency": "USD",
+      "instrument": "BSSWP",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "10Y",
+      "maturityDate": "",
+      "value": 13.125,
+      "valuationDate": "2021-07-05",
+      "currency": "USD",
+      "instrument": "BSSWP",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "12Y",
+      "maturityDate": "",
+      "value": 13.43599987,
+      "valuationDate": "2021-07-05",
+      "currency": "USD",
+      "instrument": "BSSWP",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "15Y",
+      "maturityDate": "",
+      "value": 13.93700504,
+      "valuationDate": "2021-07-05",
+      "currency": "USD",
+      "instrument": "BSSWP",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "20Y",
+      "maturityDate": "",
+      "value": 14.44900036,
+      "valuationDate": "2021-07-05",
+      "currency": "USD",
+      "instrument": "BSSWP",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "25Y",
+      "maturityDate": "",
+      "value": 14.57200003,
+      "valuationDate": "2021-07-05",
+      "currency": "USD",
+      "instrument": "BSSWP",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "30Y",
+      "maturityDate": "",
+      "value": 14.82500029,
+      "valuationDate": "2021-07-05",
+      "currency": "USD",
+      "instrument": "BSSWP",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "3M",
+      "maturityDate": "",
+      "value": -0.00542,
+      "valuationDate": "2021-07-05",
+      "currency": "EUR",
+      "instrument": "DEPO",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "3M",
+      "maturityDate": "2021-10-20",
+      "value": 100.054502,
+      "valuationDate": "2021-07-05",
+      "currency": "EUR",
+      "instrument": "FUTURES",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "4M",
+      "maturityDate": "2021-11-17",
+      "value": 100.054006,
+      "valuationDate": "2021-07-05",
+      "currency": "EUR",
+      "instrument": "FUTURES",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "5M",
+      "maturityDate": "2021-12-15",
+      "value": 100.053511,
+      "valuationDate": "2021-07-05",
+      "currency": "EUR",
+      "instrument": "FUTURES",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "6M",
+      "maturityDate": "2022-01-19",
+      "value": 100.053518,
+      "valuationDate": "2021-07-05",
+      "currency": "EUR",
+      "instrument": "FUTURES",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "7M",
+      "maturityDate": "2022-02-16",
+      "value": 100.053525,
+      "valuationDate": "2021-07-05",
+      "currency": "EUR",
+      "instrument": "FUTURES",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "8M",
+      "maturityDate": "2022-03-16",
+      "value": 100.053033,
+      "valuationDate": "2021-07-05",
+      "currency": "EUR",
+      "instrument": "FUTURES",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "11M",
+      "maturityDate": "2022-06-15",
+      "value": 100.051065,
+      "valuationDate": "2021-07-05",
+      "currency": "EUR",
+      "instrument": "FUTURES",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "14M",
+      "maturityDate": "2022-09-21",
+      "value": 100.04961,
+      "valuationDate": "2021-07-05",
+      "currency": "EUR",
+      "instrument": "FUTURES",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "17M",
+      "maturityDate": "2022-12-21",
+      "value": 100.047662,
+      "valuationDate": "2021-07-05",
+      "currency": "EUR",
+      "instrument": "FUTURES",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "20M",
+      "maturityDate": "2023-03-15",
+      "value": 100.045218,
+      "valuationDate": "2021-07-05",
+      "currency": "EUR",
+      "instrument": "FUTURES",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "23M",
+      "maturityDate": "2023-06-21",
+      "value": 100.041291,
+      "valuationDate": "2021-07-05",
+      "currency": "EUR",
+      "instrument": "FUTURES",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "26M",
+      "maturityDate": "2023-09-20",
+      "value": 100.037869,
+      "valuationDate": "2021-07-05",
+      "currency": "EUR",
+      "instrument": "FUTURES",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "3Y",
+      "maturityDate": "",
+      "value": -0.004388,
+      "valuationDate": "2021-07-05",
+      "currency": "EUR",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "4Y",
+      "maturityDate": "",
+      "value": -0.00371,
+      "valuationDate": "2021-07-05",
+      "currency": "EUR",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "5Y",
+      "maturityDate": "",
+      "value": -0.003,
+      "valuationDate": "2021-07-05",
+      "currency": "EUR",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "6Y",
+      "maturityDate": "",
+      "value": -0.002265,
+      "valuationDate": "2021-07-05",
+      "currency": "EUR",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "7Y",
+      "maturityDate": "",
+      "value": -0.0015,
+      "valuationDate": "2021-07-05",
+      "currency": "EUR",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "8Y",
+      "maturityDate": "",
+      "value": -0.000755,
+      "valuationDate": "2021-07-05",
+      "currency": "EUR",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "9Y",
+      "maturityDate": "",
+      "value": -0.000035,
+      "valuationDate": "2021-07-05",
+      "currency": "EUR",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "10Y",
+      "maturityDate": "",
+      "value": 0.00065,
+      "valuationDate": "2021-07-05",
+      "currency": "EUR",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "11Y",
+      "maturityDate": "",
+      "value": 0.0013,
+      "valuationDate": "2021-07-05",
+      "currency": "EUR",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "12Y",
+      "maturityDate": "",
+      "value": 0.00192,
+      "valuationDate": "2021-07-05",
+      "currency": "EUR",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "15Y",
+      "maturityDate": "",
+      "value": 0.0034,
+      "valuationDate": "2021-07-05",
+      "currency": "EUR",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "20Y",
+      "maturityDate": "",
+      "value": 0.00469,
+      "valuationDate": "2021-07-05",
+      "currency": "EUR",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "25Y",
+      "maturityDate": "",
+      "value": 0.00497,
+      "valuationDate": "2021-07-05",
+      "currency": "EUR",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "30Y",
+      "maturityDate": "",
+      "value": 0.00485,
+      "valuationDate": "2021-07-05",
+      "currency": "EUR",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "40Y",
+      "maturityDate": "",
+      "value": 0.0044,
+      "valuationDate": "2021-07-05",
+      "currency": "EUR",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "50Y",
+      "maturityDate": "",
+      "value": 0.00394,
+      "valuationDate": "2021-07-05",
+      "currency": "EUR",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "3M",
+      "maturityDate": "",
+      "value": -3.765399933,
+      "valuationDate": "2021-07-05",
+      "currency": "EURUSD",
+      "instrument": "CCBS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "6M",
+      "maturityDate": "",
+      "value": -10.48005152,
+      "valuationDate": "2021-07-05",
+      "currency": "EURUSD",
+      "instrument": "CCBS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "9M",
+      "maturityDate": "",
+      "value": -7.755600214,
+      "valuationDate": "2021-07-05",
+      "currency": "EURUSD",
+      "instrument": "CCBS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "1Y",
+      "maturityDate": "",
+      "value": -7.0,
+      "valuationDate": "2021-07-05",
+      "currency": "EURUSD",
+      "instrument": "CCBS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "2Y",
+      "maturityDate": "",
+      "value": -8.000000239,
+      "valuationDate": "2021-07-05",
+      "currency": "EURUSD",
+      "instrument": "CCBS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "3Y",
+      "maturityDate": "",
+      "value": -6.124999881,
+      "valuationDate": "2021-07-05",
+      "currency": "EURUSD",
+      "instrument": "CCBS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "4Y",
+      "maturityDate": "",
+      "value": -5.875000119,
+      "valuationDate": "2021-07-05",
+      "currency": "EURUSD",
+      "instrument": "CCBS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "5Y",
+      "maturityDate": "",
+      "value": -6.25,
+      "valuationDate": "2021-07-05",
+      "currency": "EURUSD",
+      "instrument": "CCBS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "6Y",
+      "maturityDate": "",
+      "value": -6.875,
+      "valuationDate": "2021-07-05",
+      "currency": "EURUSD",
+      "instrument": "CCBS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "7Y",
+      "maturityDate": "",
+      "value": -7.499999523,
+      "valuationDate": "2021-07-05",
+      "currency": "EURUSD",
+      "instrument": "CCBS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "8Y",
+      "maturityDate": "",
+      "value": -8.125000713,
+      "valuationDate": "2021-07-05",
+      "currency": "EURUSD",
+      "instrument": "CCBS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "9Y",
+      "maturityDate": "",
+      "value": -8.624997376,
+      "valuationDate": "2021-07-05",
+      "currency": "EURUSD",
+      "instrument": "CCBS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "10Y",
+      "maturityDate": "",
+      "value": -9.375000475,
+      "valuationDate": "2021-07-05",
+      "currency": "EURUSD",
+      "instrument": "CCBS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "12Y",
+      "maturityDate": "",
+      "value": -9.625001908,
+      "valuationDate": "2021-07-05",
+      "currency": "EURUSD",
+      "instrument": "CCBS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "15Y",
+      "maturityDate": "",
+      "value": -9.249998091,
+      "valuationDate": "2021-07-05",
+      "currency": "EURUSD",
+      "instrument": "CCBS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "20Y",
+      "maturityDate": "",
+      "value": -7.374999762,
+      "valuationDate": "2021-07-05",
+      "currency": "EURUSD",
+      "instrument": "CCBS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "30Y",
+      "maturityDate": "",
+      "value": -3.875,
+      "valuationDate": "2021-07-05",
+      "currency": "EURUSD",
+      "instrument": "CCBS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "1D",
+      "maturityDate": "",
+      "value": 0.199076,
+      "valuationDate": "2021-06-18",
+      "currency": "TRY",
+      "instrument": "DEPO",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "1W",
+      "maturityDate": "",
+      "value": 0.199498,
+      "valuationDate": "2021-06-18",
+      "currency": "TRY",
+      "instrument": "DEPO",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "1M",
+      "maturityDate": "",
+      "value": 0.199496,
+      "valuationDate": "2021-06-18",
+      "currency": "TRY",
+      "instrument": "DEPO",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "2M",
+      "maturityDate": "",
+      "value": 0.19950001,
+      "valuationDate": "2021-06-18",
+      "currency": "TRY",
+      "instrument": "DEPO",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "3M",
+      "maturityDate": "",
+      "value": 0.19950001,
+      "valuationDate": "2021-06-18",
+      "currency": "TRY",
+      "instrument": "DEPO",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "1Y",
+      "maturityDate": "",
+      "value": 0.203564997,
+      "valuationDate": "2021-06-18",
+      "currency": "TRY",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "2Y",
+      "maturityDate": "",
+      "value": 0.199055004,
+      "valuationDate": "2021-06-18",
+      "currency": "TRY",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "3Y",
+      "maturityDate": "",
+      "value": 0.195270004,
+      "valuationDate": "2021-06-18",
+      "currency": "TRY",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "4Y",
+      "maturityDate": "",
+      "value": 0.191380005,
+      "valuationDate": "2021-06-18",
+      "currency": "TRY",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "5Y",
+      "maturityDate": "",
+      "value": 0.188180008,
+      "valuationDate": "2021-06-18",
+      "currency": "TRY",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "7Y",
+      "maturityDate": "",
+      "value": 0.184150009,
+      "valuationDate": "2021-06-18",
+      "currency": "TRY",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "10Y",
+      "maturityDate": "",
+      "value": 0.180900002,
+      "valuationDate": "2021-06-18",
+      "currency": "TRY",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "3M"
+    },
+    {
+      "tenor": "1M",
+      "maturityDate": "2021-04-09",
+      "value": 0.001035,
+      "valuationDate": "2021-03-05",
+      "currency": "USD",
+      "instrument": "DEPO",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "2M",
+      "maturityDate": "2021-05-10",
+      "value": 0.001454,
+      "valuationDate": "2021-03-05",
+      "currency": "USD",
+      "instrument": "DEPO",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "3M",
+      "maturityDate": "2021-06-09",
+      "value": 0.001755,
+      "valuationDate": "2021-03-05",
+      "currency": "USD",
+      "instrument": "DEPO",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "6M",
+      "maturityDate": "2021-09-09",
+      "value": 0.002033,
+      "valuationDate": "2021-03-05",
+      "currency": "USD",
+      "instrument": "DEPO",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "1Y",
+      "maturityDate": "2022-03-09",
+      "value": 0.002838,
+      "valuationDate": "2021-03-05",
+      "currency": "USD",
+      "instrument": "DEPO",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "2Y",
+      "maturityDate": "2023-03-09",
+      "value": 0.002315,
+      "valuationDate": "2021-03-05",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "3Y",
+      "maturityDate": "2024-03-09",
+      "value": 0.00417,
+      "valuationDate": "2021-03-05",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "4Y",
+      "maturityDate": "2025-03-09",
+      "value": 0.006613,
+      "valuationDate": "2021-03-05",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "5Y",
+      "maturityDate": "2026-03-09",
+      "value": 0.00879,
+      "valuationDate": "2021-03-05",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "6Y",
+      "maturityDate": "2027-03-09",
+      "value": 0.01085,
+      "valuationDate": "2021-03-05",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "7Y",
+      "maturityDate": "2028-03-09",
+      "value": 0.012585,
+      "valuationDate": "2021-03-05",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "8Y",
+      "maturityDate": "2029-03-09",
+      "value": 0.013958,
+      "valuationDate": "2021-03-05",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "9Y",
+      "maturityDate": "2030-03-09",
+      "value": 0.01508,
+      "valuationDate": "2021-03-05",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "10Y",
+      "maturityDate": "2031-03-09",
+      "value": 0.01602,
+      "valuationDate": "2021-03-05",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "12Y",
+      "maturityDate": "2033-03-09",
+      "value": 0.01752,
+      "valuationDate": "2021-03-05",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "15Y",
+      "maturityDate": "2036-03-09",
+      "value": 0.018743,
+      "valuationDate": "2021-03-05",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "20Y",
+      "maturityDate": "2041-03-09",
+      "value": 0.019685,
+      "valuationDate": "2021-03-05",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "25Y",
+      "maturityDate": "2046-03-09",
+      "value": 0.020108,
+      "valuationDate": "2021-03-05",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "30Y",
+      "maturityDate": "2051-03-09",
+      "value": 0.02035,
+      "valuationDate": "2021-03-05",
+      "currency": "USD",
+      "instrument": "IRS",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "6M",
+      "maturityDate": "2021-03-05",
+      "value": 169.02,
+      "valuationDate": "2021-03-05",
+      "currency": "USD",
+      "instrument": "CDS",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "1Y",
+      "maturityDate": "2021-03-05",
+      "value": 228.38,
+      "valuationDate": "2021-03-05",
+      "currency": "USD",
+      "instrument": "CDS",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "2Y",
+      "maturityDate": "2021-03-05",
+      "value": 279.96,
+      "valuationDate": "2021-03-05",
+      "currency": "USD",
+      "instrument": "CDS",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "3Y",
+      "maturityDate": "2021-03-05",
+      "value": 303.21,
+      "valuationDate": "2021-03-05",
+      "currency": "USD",
+      "instrument": "CDS",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "4Y",
+      "maturityDate": "2021-03-05",
+      "value": 320.24,
+      "valuationDate": "2021-03-05",
+      "currency": "USD",
+      "instrument": "CDS",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "5Y",
+      "maturityDate": "2021-03-05",
+      "value": 334.893,
+      "valuationDate": "2021-03-05",
+      "currency": "USD",
+      "instrument": "CDS",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "7Y",
+      "maturityDate": "2021-03-05",
+      "value": 372.46,
+      "valuationDate": "2021-03-05",
+      "currency": "USD",
+      "instrument": "CDS",
+      "settlementDate": "2D",
+      "period": "6M"
+    },
+    {
+      "tenor": "10Y",
+      "maturityDate": "2021-03-05",
+      "value": 384.77,
+      "valuationDate": "2021-03-05",
+      "currency": "USD",
+      "instrument": "CDS",
+      "settlementDate": "2D",
+      "period": "6M"
+    }
+]
