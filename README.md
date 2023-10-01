@@ -13,6 +13,7 @@
   <a target="_blank" href="https://rhoova.com/">Website</a> •
   <a target="_blank" href="https://app.rhoova.com">Application</a> •
   <a target="_blank" href="https://app.rhoova.com/docs">Docs</a> •
+  <a target="_blank" href="https://pypi.org/project/rhoova/">Python Client</a> •
   <a target="_blank" href="#rhoova-examples">Examples</a>
 </p>
 
