@@ -10,10 +10,10 @@
 <h6 align="center">Risk and Pricing of Balance Sheet and Off-Balance Sheet Items</h6>
 
 <p align="center">
-  <a href="https://rhoova.com/">Website</a> •
-  <a href="https://app.rhoova.com">Application</a> •
-  <a href="https://app.rhoova.com/docs">Docs</a> •
-  <a href="#rhoova-examples">Examples</a>
+  <a target="_blank" href="https://rhoova.com/">Website</a> •
+  <a target="_blank" href="https://app.rhoova.com">Application</a> •
+  <a target="_blank" href="https://app.rhoova.com/docs">Docs</a> •
+  <a target="_blank" href="#rhoova-examples">Examples</a>
 </p>
 
 ## Rhoova Examples
