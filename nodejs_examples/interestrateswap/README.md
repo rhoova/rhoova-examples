@@ -43,3 +43,6 @@ Start the server
   npm run dev
 ```
 
+## Feedback
+
+If you have any feedback, please reach out to us at rhoova.ekinoks@gmail.com
