@@ -17,6 +17,12 @@
   <a target="_blank" href="https://github.com/rhoova/rhoova-examples">Examples</a>
 </p>
 
+## Install the Latest Python Client
+
+```bash
+  pip install rhoova
+```
+
 ## Rhoova Python Examples
 
 ### Portfolio
