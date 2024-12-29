@@ -33,6 +33,7 @@
 * Value At Risk (VaR)
   * Historical
   * Delta Normal
+  * Monte Carlo
  
 
 ### Instruments
