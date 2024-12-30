@@ -20,7 +20,7 @@
 ## Rhoova Examples
 
 * Examples for **Calculations** and **Portfolio** in Python using Juptyer
-* VaR examples using Historical and DeltaNormal methods
+* VaR examples using Historical,DeltaNormal and Monte Carlo methods
 * Simple Interest Rate Swap(IRS) example in Node.js
 * Curve Samples
 
