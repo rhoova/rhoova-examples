@@ -1,0 +1,13 @@
+{
+"name": "USD_OIS",
+ "settlementDays": 2,
+ "intpMethod": "linear",
+ "currency": "USD",
+ "calendar":"Turkey",
+ "dayCounter": "Actual360",
+ "period": "6M",
+ "instruments": {"DEPO": {"businessDayConvention": "Following",
+   "dayCounter": "Actual360"},
+  "IRS": {"businessDayConvention": "Following",
+   "dayCounter": "Actual360",
+   "frequency": "Semiannual"}}}
