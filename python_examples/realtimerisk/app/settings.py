@@ -26,8 +26,8 @@ class Settings(BaseSettings):
     refresh_sec: int = Field(5, env="REFRESH_SEC")
     ws_host: str = "localhost"
     ws_port: int = 8000
-    telegram_token: str = "7175564375:AAFMg2TBe_ZqqKMsV4ks3HILsCESshZGCnQ"  # Replace with your Telegram bot token
-    telegram_chat_id: str = "-4924353984"
+    telegram_token: str = ""  # Replace with your Telegram bot token
+    telegram_chat_id: str = ""
     valuationdate: str ="2025-02-25"
     currency: str ="TRY"
     method: str ="total_present_value"
