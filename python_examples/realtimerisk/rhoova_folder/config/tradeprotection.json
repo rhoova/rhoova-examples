@@ -1,0 +1,9 @@
+{
+  "method": "parallel",
+  "shockValues" : [
+    {
+      "tenor" : "all",
+      "shockValue" : 2000.0
+    }
+  ]
+}

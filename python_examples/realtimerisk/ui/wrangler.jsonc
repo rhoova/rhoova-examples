@@ -1,0 +1,8 @@
+// Wrangler config for a static UI served from ./dist
+{
+  "name": "wrangler-ui-min",
+  "compatibility_date": "2025-08-24",
+  "assets": {
+    "directory": "./dist"
+  }
+}

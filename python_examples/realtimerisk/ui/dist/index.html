@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="tr" data-theme="dark">
+<head>
+  <meta charset="utf-8"/>
+  <title>Real Time Risk UI — Dual Engine</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <link rel="stylesheet" href="styles.css"/>
+  <script>
+    // Apply stored theme before paint
+    (function(){
+      try{
+        var t = localStorage.getItem('ui_theme') || 'dark';
+        document.documentElement.setAttribute('data-theme', t);
+      }catch(e){}
+    })();
+  </script>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Real Time Risk UI</h1>
+
+    <div class="card">
+      <div class="row">       
+        <div class="last-tick">
+          <span class="muted">Last Tick:</span>
+          <span id="lastTs">—</span>
+        </div>
+    
+        <div class="theme-container">
+          <span class="muted">Theme:</span>
+          <button type="button" id="btnThemeBlack">Black</button>
+          <button type="button" id="btnThemeDark">Dark</button>
+          <button type="button" id="btnThemeLight">Light</button>
+        </div>
+      </div>
+    </div>
+    
+
+    <div class="tabs">
+      <button class="tab-btn active" data-tab="tab-curve">Curve</button>
+      <button class="tab-btn" data-tab="tab-alerts">Alerts</button>
+      <button class="tab-btn" data-tab="tab-logs">Logs</button>
+      <button class="tab-btn" data-tab="tab-services">Services</button>
+    </div>
+
+    <div id="tab-curve" class="tab-panel active">
+  <div class="grid curve-grid" style="margin-bottom:16px">
+  <div class="left-col">
+    <div class="card">
+      <h3>Yield Curve</h3>
+      <div id="chartWrap" style="height:520px; position:relative">
+        <canvas id="chart" style="width:100%; height:100%"></canvas>
+      </div>
+    </div>
+  </div>
+  <div class="right-col">
+    <div class="card">
+      <div style="margin-top:10px; max-height:540px; overflow-y:auto;">
+        <table>
+          <thead><tr><th>TS</th><th>Text</th></tr></thead>
+          <tbody id="alertsTableBody"></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+        <div class="card">
+          <h3>Yield Table</h3>
+          <div style="overflow:auto">
+            <table id="yieldTable">
+              <thead><tr><th>Tenor</th><th>Value</th><th>Instrument</th><th>Currency</th><th>Valuation</th><th>Published</th><th>Source</th></tr></thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="tab-alerts" class="tab-panel">
+
+    </div>
+
+    <div id="tab-logs" class="tab-panel">
+      <div class="card">
+        <h3>WebSocket Log</h3>
+        <div id="log"></div>
+      </div>
+    </div>
+
+    <div id="tab-services" class="tab-panel">
+      <div class="card">
+        <h3>Services</h3>
+       <!-- <p class="muted">Bağlı servisler burada listelenebilir.</p>-->
+        <div class="row">
+        <label>Yield WS:
+          <input id="wsUrl" type="text" value="ws://localhost:8000/ws/yield" style="min-width:340px"/>
+        </label>
+        <button id="btnConnect">Connect</button>
+        <button id="btnDisconnect">Disconnect</button>
+        <button id="btnClear">Clear Log</button>
+        <span class="row">
+          <span id="connDot" class="dot"></span>
+          <strong id="connLabel">disconnected</strong>
+        </span>
+        </div>
+
+        <div class="row">
+          <label>Alert WS:
+            <input id="txtAlertsWs" type="text" value="ws://localhost:8000/ws/alerts" style="min-width:340px"/>
+          </label>
+          <button id="btnAlertsConnect">Connect</button>
+          <button id="btnAlertsDisconnect">Disconnect</button>
+          <button id="btnClearAlerts">Clear Log</button>
+          <span class="row">
+            <span id="connDot" class="dot"></span>
+            <strong id="alertsStatus">disconnected</strong>
+          </span>
+          </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Positions Service</h3>
+      <div class="row">
+        <label>Positions WS:
+          <input id="txtPositionsWs" type="text" value="ws://localhost:8000/ws/positions" style="min-width:340px"/>
+        </label>
+        <button id="btnPositionsConnect">Connect</button>
+        <button id="btnPositionsDisconnect">Disconnect</button>
+        <button id="btnPositionsRefresh">Fetch (REST)</button>
+        <span class="row">
+          <span id="positionsDot" class="dot"></span>
+          <strong id="positionsStatus">disconnected</strong>
+        </span>
+      </div>
+      <div class="row">
+        <label>REST (fallback): 
+          <input id="txtPositionsRest" type="text" value="/positions" style="min-width:240px"/>
+        </label>
+        <span class="muted small">Beklenen cevap: JSON list</span>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+{
+            "name": "TRYOIS",
+            "settlementDays": 2,
+            "intpMethod": "Linear",
+            "currency": "TRY",
+            "calendar": "Turkey",
+            "dayCounter": "ActualActual",
+            "period": "1D",
+            "index": "TLREF",
+            "paymentlag": 1,
+            "usedates": false,
+            "instruments": {
+                "OIS": {
+                    "businessDayConvention": "ModifiedFollowing",
+                    "dayCounter": "ActualActual",
+                    "frequency": "Quarterly"
+                }
+            }
+        }
