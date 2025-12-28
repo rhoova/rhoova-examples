@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rhoova AI | Risk Intelligence</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="layout">
+        <aside class="sidebar glass">
+            <div class="logo-area">
+                <div class="logo-icon"><i class="fa-solid fa-cube"></i></div>
+                <div class="logo-text">Rhoova<span>AI</span></div>
+            </div>
+
+            <nav class="nav-menu">
+                <button class="nav-item active" onclick="location.reload()">
+                    <i class="fa-regular fa-comments"></i> Analiz Ekranı
+                </button>
+                <div class="nav-label">GEÇMİŞ SORGULAR</div>
+                <div class="history-list">
+                    <div class="history-item"><i class="fa-solid fa-clock-rotate-left"></i> USDTRY Kur Şoku</div>
+                    <div class="history-item"><i class="fa-solid fa-clock-rotate-left"></i> Basel IV Raporu</div>
+                </div>
+            </nav>
+
+            <div class="system-status">
+                <div class="status-row">
+                    <span class="dot pulse-green"></span>
+                    <span>Risk Engine: <strong>Online</strong></span>
+                </div>
+                <div class="status-row">
+                    <span class="dot pulse-blue"></span>
+                    <span>LLM Agent: <strong>Ready</strong></span>
+                </div>
+                <div class="status-row" id="portfolioStatusRow" style="opacity: 0.5;">
+                    <span id="portfolioDot" class="dot" style="background:#fbbf24;"></span>
+                    <span>Portföy: <strong id="portfolioText">Aranıyor...</strong></span>
+                </div>
+            </div>
+        </aside>
+
+        <main class="main-content">
+            <header class="top-bar glass">
+                <div class="header-title">
+                    <h1>Sanal Risk Danışmanı</h1>
+                    <span class="badge">PROTOTYPE</span>
+                </div>
+                <div class="header-actions">
+                    <button class="icon-btn"><i class="fa-regular fa-bell"></i></button>
+                    <div class="user-profile"><div class="avatar">MK</div></div>
+                </div>
+            </header>
+
+            <div class="chat-container" id="chatWindow">
+                <div class="welcome-screen">
+                    <div class="welcome-icon"><i class="fa-solid fa-chart-line"></i></div>
+                    <h2>Makro Risk Senaryoları</h2>
+                    <p>Portföyünüze uygulamak istediğiniz stres testini seçin veya <strong>PDF Rapor</strong> yükleyip soru sorun.</p>
+                    
+                    <div class="suggestions">
+                        <button onclick="triggerMacro('Küresel Enflasyon Şoku', 200)">
+                            🔥 Küresel Enflasyon (+200bps)
+                        </button>
+                        <button onclick="triggerMacro('Resesyon / Faiz İndirimi', -250)">
+                            📉 Resesyon Senaryosu (-250bps)
+                        </button>
+                        <button onclick="triggerMacro('Kur Şoku / Risk Primi', 500)">
+                            🇹🇷 Kur & CDS Şoku (+500bps)
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="input-wrapper glass">
+                <div class="input-container">
+                    <label for="fileInput" class="attach-btn" title="PDF Rapor veya Portföy Yükle">
+                        <i class="fa-solid fa-paperclip"></i>
+                    </label>
+                    <input type="file" id="fileInput" hidden accept=".pdf,.xlsx">
+                    
+                    <textarea id="userInput" rows="1" placeholder="Bir soru sorun veya komut verin (Örn: 'Raporda faiz beklentisi ne?')..."></textarea>
+                    
+                    <button id="sendBtn" onclick="sendMessage()">
+                        <i class="fa-solid fa-location-arrow"></i>
+                    </button>
+                </div>
+                <div class="footer-text">
+                    Rhoova AI finansal tavsiye niteliğinde değildir. Hesaplamalar simülasyon amaçlıdır.
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

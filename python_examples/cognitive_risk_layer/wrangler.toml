@@ -1,0 +1,9 @@
+name = "rhoova-risk-engine"
+main = "src/index.js"
+compatibility_date = "2024-11-20"
+
+# Statik varlıklar (Frontend) konfigürasyonu
+# 'public' klasöründeki her şeyi otomatik sunar.
+[assets]
+directory = "./public"
+binding = "ASSETS"

@@ -1,0 +1,6 @@
+isinCode,currency,couponRate,frequency,maturityDate,dayCounter,calendar,issueDate,redemption,dateGeneration,businessDayConvention,maturityDateConvention,endOfMonth,yieldCurve,instrument,cpiIndex,baseCPI,observationLag,observationInterpolation,growthOnly
+TRT160425T17,TRY,0.01,Semiannual,2025-04-16,ActualActual,Turkey,2015-04-29,100,Backward,ModifiedFollowing,ModifiedFollowing,TRUE,TRY CPI,CPIBond,TRCPI,252.120667,3M,Linear,FALSE
+TRT180625T13,TRY,0.0075,Semiannual,2025-06-18,ActualActual,Turkey,2020-06-24,100,Backward,ModifiedFollowing,ModifiedFollowing,TRUE,TRY CPI,CPIBond,TRCPI,453.531667,3M,Linear,FALSE
+TRT140126T11,TRY,0.0135,Semiannual,2026-01-14,ActualActual,Turkey,2016-01-27,100,Backward,ModifiedFollowing,ModifiedFollowing,TRUE,TRY CPI,CPIBond,TRCPI,268.692903,3M,Linear,FALSE
+TRT120128T11,TRY,0.0145,Semiannual,2028-01-12,ActualActual,Turkey,2018-01-24,100,Backward,ModifiedFollowing,ModifiedFollowing,TRUE,TRY CPI,CPIBond,TRCPI,323.946452,3M,Linear,FALSE
+TRT280531T14,TRY,0.015,Semiannual,2031-05-28,ActualActual,Turkey,2021-06-09,100,Backward,ModifiedFollowing,ModifiedFollowing,TRUE,TRY CPI,CPIBond,TRCPI,525.874000,3M,Linear,FALSE
