@@ -6,7 +6,7 @@
 
 ## 📖 Proje Hakkında
 
-**"Risk Yönetimini ve Yapay Zeka Entegrasyonu**
+**"Risk Yönetimi ve Yapay Zeka Entegrasyonu**
 
 Rhoova Cognitive Risk Layer; finansal risk yönetimini sadece sayısal hesaplamalardan ibaret olmaktan çıkarıp, **"okuyan, anlayan ve strateji öneren"** bir asistan yapısına dönüştürür.
 
